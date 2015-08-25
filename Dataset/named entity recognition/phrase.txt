@@ -1,0 +1,39 @@
+named-entity recognition
+speech tagging
+Hidden Markov Models
+Previous work
+suffix tries
+decision trees
+Conditional Random Field
+Conditional Random Fields
+shared task
+machine learning
+unlabeled data
+entity recognition
+named entity recognition
+Maximum Entropy
+inference time
+recent years
+Transformation-based learning
+classification tasks
+Markov Model
+good performance
+Previous top systems
+information extraction
+part-of-speech tagging
+syntactic parsing
+biomedical domain
+newswire domain
+random fields
+Markov Models
+initial segmentation
+Vector Machines
+natural language
+natural language processing
+labeled data
+internal features
+Hidden Markov Model
+maximum entropy
+Maximum Entropy approach
+transformation-based learning
+vector machines

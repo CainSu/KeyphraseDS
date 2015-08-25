@@ -1,0 +1,82 @@
+P04	7	multi-document summarization
+P03	7	single-document summarization
+P02	7	abstractive summarization
+P01	7	extractive summarization
+F01	7	word / term frequency as feature
+M03	6	Naive Bayes (Kupiec 95)
+M02	6	Maximal Margin Relevance (MMR)
+M01	6	Rhetorical Parsing / Rhetorical Structure Theory (RST)
+M05	5	Hidden Markov Model (HMM)
+M04	5	lexical chains
+F04	5	sentence length as feature
+F03	5	sentence location / position as feature
+F02	5	cue words as feature
+D01	5	definition of summarization
+V02	4	DUC
+V01	4	SUMMAC
+P07	4	query focused summarization
+P06	4	summarization classification by dimensions (query-specific, query-independent)
+P05	4	summarization classification by purpose (indicative, informative, critical)
+M06	4	maximum entropy / log linear models
+F10	4	topic signatures
+E02	4	ROUGE
+E01	4	precision / recall as evaluation metric
+P11	3	information retrieval
+P10	3	information overload
+P09	3	summarization motivation
+O01	3	headline as example
+M23	3	information fusion
+M12	3	sentence compression
+M11	3	argumentative zoning
+M10	3	lexrank
+M09	3	Centroid based summarization
+M08	3	Noisy channel Model
+M07	3	Latent Semantic Analysis (LSA)
+F08	3	uppercase words as feature
+F07	3	TF*IDF scoring
+F06	3	discourse structure as feature
+F05	3	title as feature
+E03	3	pyramid method
+A02	3	Google News
+A01	3	newsinessence
+V04	2	NIST
+V03	2	TREC
+S03	2	SUMMARIST
+S02	2	FRUMP
+S01	2	MEAD
+P28	2	update summarization
+P27	2	opinion summarization
+P26	2	output factors
+P25	2	purpose factors
+P24	2	input factors
+P23	2	information ordering
+P22	2	question answering
+P21	2	cross sentence informational subsumption
+P20	2	disfluencies
+P19	2	cohesion
+P18	2	abridgements
+P17	2	biographies
+P16	2	outlines
+P15	2	headline generation
+P14	2	summarization genres
+P13	2	information extraction
+P12	2	speech summarization
+M22	2	sentence fusion
+M21	2	content selection
+M20	2	text generation
+M19	2	knowledge rich approaches
+M18	2	sentence reordering
+M17	2	Integer Linear Programming (ILP)
+M16	2	Dynamic programming
+M15	2	text cohesion
+M14	2	text coherence
+M13	2	optimum position policy (OPP)
+F09	2	lexical centrality
+E09	2	Relative Utility
+E08	2	summary content units (SCU)
+E07	2	JS divergence for automatic evaluation
+E06	2	Summary Evaluation Environment (SEE)
+E05	2	intrinsic evaluation
+E04	2	extrinsic evaluation
+D02	2	definition of a summary
+A03	2	newsblaster

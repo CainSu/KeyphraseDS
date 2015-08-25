@@ -1,0 +1,58 @@
+M13	6	answer extraction
+M12	6	question classification
+V01	5	TREC QA track
+P02	5	question classification according to answer type and focus
+P01	5	information retrieval
+M11	5	document retrieval
+M10	5	answer selection / identification
+D01	5	question answering definition
+S02	4	LUNAR
+S01	4	BASEBALL
+P03	4	information extraction
+M09	4	passage retrival
+M08	4	answer validation
+V02	3	NIST
+P12	3	closed / restricted domain question answering
+P11	3	open domain question answering
+P08	3	NLP interfaces to databases
+P07	3	question classification according to question speech act
+P06	3	emphasis on recall
+P05	3	factoid question answering
+P04	3	why question answering
+M22	3	Statistical / machine learning approaches for QA components
+M07	3	question processing
+M06	3	pattern / template based question answering
+M05	3	entity recognition during candidate answer document analysis
+F01	3	web data redundancy
+E02	3	Confidence-Weighted SCore (CWS) as evaluation metric
+E01	3	Mean Reciprocal Rank (MRR) as evaluation metric
+V05	2	CLEF multilingual QA track
+V04	2	DARPA
+V03	2	ARDA
+S09	2	START
+S08	2	FALCON
+S07	2	MULDER
+S06	2	QUALM
+S05	2	LIFER
+S04	2	LaSIE
+S03	2	NSIR
+P13	2	cross language question answering
+P10	2	reading / story comprehension
+P09	2	dialog based interaction
+O01	2	semantic web
+M20	2	answer reranking
+M19	2	wordnet for answer validation
+M18	2	machine learning approach for question classification
+M17	2	entity classification
+M16	2	standard radix sort algorithm for paragraph ordering
+M15	2	parsing for question analysis
+M14	2	question / query reformulation
+M04	2	web based approach for question answering
+M03	2	NLP based question answering
+M02	2	acquisition of answer patterns
+M01	2	query modulation
+P17	1	text classification
+P16	1	summarization
+P15	1	knowledge annotation
+P14	1	knowledge mining
+M21	1	logic based answer extraction

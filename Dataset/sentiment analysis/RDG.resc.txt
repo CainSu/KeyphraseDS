@@ -1,0 +1,14 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: ICDM2011_SentimentAnalysisInPracticeTutorial.pdf ::: Yongzheng (Tiger) Zhang; Dan Shen; Catherine Baudin ::: 2011 ::: Sentiment Analysis in Practice ::: ICDM
+T2 ::: OpinionMining_Kavita_HyunDuk_0_0.pdf ::: Kavita Ganesan; Hyun Duk Kim ::: 2008 ::: Opinion Mining: A Short Tutorial ::: NA
+T3 ::: Sentiment-Analysis-tutorial-AAAI-2011.pdf ::: Bing Liu ::: 2011 ::: Sentiment Analysis and Opinion Mining ::: AAAI
+T4 ::: opinion-mining.pdf ::: Diana Maynard ::: 2012 ::: Opinion Mining: Exploiting the Sentiment of the Crowd ::: NA
+
+# Surveys
+S1 ::: omsa.pdf ::: Bo Pang; Lillian Lee ::: 2008 ::: Opinion mining and sentiment analysis ::: NOW surveys
+S2 ::: NLP-handbook-sentiment-analysis.pdf ::: Bing Liu ::: 2010 ::: Sentiment Analysis and Subjectivity ::: Handbook of Natural Language Processing
+S3 ::: V2I600263.pdf ::: G.Vinodhini; RM.Chandrasekaran ::: 2012 ::: Sentiment Analysis and Opinion Mining: A Survey ::: IJARCSSE
+S4 ::: SA-Literature_Survey-2012-Subhabratam.pdf ::: Subhabrata Mukherjee ::: 2012 ::: Sentiment Analysis: A Literature Survey ::: NA
+S5 ::: morgan_clay_sentiment.pdf ::: Bing Liu ::: 2012 ::: Sentiment Analysis and Opinion Mining ::: Morgan & Claypool Publishers

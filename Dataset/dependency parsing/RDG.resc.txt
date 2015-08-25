@@ -1,0 +1,11 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: ACLslides.pdf ::: Joakim Nivre; Sandra Kubler ::: 2006 ::: Dependency Parsing ::: COLING-ACL
+T2 ::: IASNLP_summer-school-depparsing.pdf ::: Prashanth Mannem ::: 2013 ::: Dependency Parsing ::: IASNLP
+T3 ::: dependency_parsing.pdf ::: Onur Gungor ::: 2007 ::: Dependency Parsing ::: NA
+
+# Surveys
+S1 ::: morgan_clay_dp.pdf ::: Sandra Kubler; Ryan McDonald; Joakim Nivre ::: 2009 ::: Dependency Parsing ::: Morgan & Claypool Publishers
+S2 ::: 05133.pdf ::: Joakim Nivre ::: 2005 ::: Dependency Grammar and Dependency Parsing ::: NA
+S3 ::: SRL_DEP-Literature_Survey-2012-Janardhan.pdf ::: Janardhan Singh ::: 2012 ::: Survey: Semantic Role Labeling and Dependency Parsing ::: NA

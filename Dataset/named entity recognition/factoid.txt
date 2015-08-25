@@ -1,0 +1,70 @@
+V01	5	MUC
+P04	5	Entity type: location
+P03	5	Entity type: organization
+P02	5	Entity type: Person
+P01	5	information extraction
+M03	5	Maximum Entropy Models
+M02	5	Hidden Markov Models (HMM)
+M01	5	decision trees
+F01	5	List lookup features / gazetteers
+V05	4	ACE (Automatic Content Extraction)
+V04	4	MET (Multilingual Entity Tracking)
+V03	4	IREX (Information Retrieval and Extraction Exercise)
+V02	4	CoNLL
+P12	4	Spanish NER
+P11	4	Chinese NER
+P10	4	NUMEX
+P09	4	TIMEX
+P08	4	ENAMEX
+P07	4	Entity type: drug
+P06	4	Entity type: measures (money, weight etc.)
+P05	4	Entity type: date/time expressions
+M07	4	bootstrapping
+M06	4	Conditional Random Fields (CRF)
+M05	4	Support Vector Machines (SVM)
+M04	4	handcrafted systems
+V06	3	HUB-4
+P31	3	Turkish NER
+P30	3	Swedish NER
+P29	3	Portuguese NER
+P28	3	Korean NER
+P27	3	Italian NER
+P26	3	Greek NER
+P25	3	German NER
+P24	3	French NER
+P23	3	Dutch NER
+P22	3	Entity type: RNA
+P21	3	Japanese NER
+P20	3	Entity type: DNA
+P19	3	Catalan NER
+P18	3	Entity type: protein
+P17	3	Bulgarian NER
+P16	3	entity classification
+P15	3	unsupervised NER
+P14	3	entity recognition
+P13	3	Russian NER
+M09	3	supervised NER
+M08	3	semi-supervised NER
+F03	3	Word level features
+F02	3	pattern features
+D02	3	definition of Named Entity
+D01	3	definition of Named Entity Recognition
+A01	3	NER applications
+V07	2	LREC
+S01	2	LaSIE
+R01	2	GENIA
+P39	2	Basque NER
+P38	2	Hindi NER
+P37	2	Arabic NER
+P36	2	metonymy
+P35	2	entity type factor
+P34	2	genre factor
+P33	2	language factor
+P32	2	Entity type: email
+M11	2	mutual bootstrapping
+M10	2	general dictionary
+F06	2	Document and corpus features
+F05	2	capitalization as feature
+F04	2	digit pattern as feature
+D03	2	information extraction definition
+A02	2	Question Ansering

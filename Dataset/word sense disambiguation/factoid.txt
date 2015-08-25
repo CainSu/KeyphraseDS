@@ -1,0 +1,108 @@
+D01	9	definition of word sense dismabiguation
+R01	8	wordnet
+M01	7	knowledge based word sense disambiguation
+M02	7	supervised word sense disambiguation
+M03	7	word sense disambiguation using multilingual / parallel language texts
+V02	7	senseval
+D02	6	definition of word senses
+M04	6	knowledge based disambiguation using machine readable dictionaries
+M13	6	unsupervised word sense disambiguation
+M20	6	bootstrapping algorithms
+M32	6	supervised disambiguation using decision lists
+M55	6	knowledge based disambiguation using selectional restrictions / preferences
+M56	6	knowledge based disambiguation using the lesk algorithm
+R03	6	LDOCE (Longman Dictionary of Contemporary English)
+M17	5	bootstrapping using yarowsky algorithm
+M41	5	heuristic of one sense per discourse
+M52	5	knowledge based disambiguation using semantic similarity
+R15	5	Roget's International Thesuarus
+A06	4	word sense disambiguation for information retrieval
+A07	4	word sense disambiguation for machine translation
+E09	4	most frequent sense baseline (or lower bound) for word sense disambiguation
+M10	4	unsupervised word sense disambiguation using clustering
+M31	4	supervised disambiguation using naive bayes
+M40	4	heuristic of one sense per collocation
+P04	4	granularity of word senses
+P05	4	lexical sample / targeted word sense disambiguation
+P08	4	all words word sense disambiguation
+A05	3	word sense disambiguation for information extraction
+E03	3	precision and recall metrics for evaluating word sense disambiguation
+E05	3	pseudo words (banana-door)
+E07	3	upper bound of inter-annotator agreement
+E08	3	random baseline (or lower bound) for word sense disambiguation
+M09	3	unsupervised word sense disambiguation using latent semantic indexing / analysis or SVD
+M21	3	semi supervised disambiguation
+M22	3	supervised disambiguation using ensemble of classifiers
+M29	3	supervised disambiguation using maximum entropy
+M33	3	supervised disambiguation using decision tress
+M38	3	supervised disambiguation using SVM
+M47	3	semantic similarity using semantic networks
+P02	3	clustering/relating wordnet senses
+R04	3	sense tagged text
+R11	3	wall street journal corpus
+R14	3	Collin's dictionary
+A02	2	word sense disambiguation for content analysis
+A03	2	word sense disambiguation for lexicography
+A04	2	word sense disambiguation for speech processing
+A08	2	applications of WSD
+D03	2	definition of word sense discrimination
+E01	2	evaluation of word sense induction
+E04	2	in vivo / end-to-end evaluation
+E06	2	in vitro / standalone evaluation
+M05	2	co-occurence graph for word sense induction
+M06	2	word sense induction using clustering by committee
+M07	2	word sense induction using context group discrimination
+M08	2	distributional approaches for word sense induction
+M14	2	web based bootstrapping
+M15	2	build tagged corpopra using monosemous relatives
+M18	2	bootstrapping using self-training
+M19	2	bootstrapping using co-training
+M25	2	supervised disambiguation using neural networks
+M34	2	supervised disambiguation using nearest neighbor classifiers
+M36	2	supervised disambiguation using exemplar-based / memory-based / instance-based learning
+M43	2	semantic similarity using lexical chains
+M44	2	semantic similarity using conceptual density measure
+M46	2	semantic similarity using information content
+M50	2	knowledge based disambiguation using graphical methods
+M51	2	knowledge based disambiguation using conceptual density
+M54	2	preference semantics
+M57	2	corpus based word sense disambiguation
+P06	2	domain-driven / domain-specific word sense disambiguation
+P07	2	polysemy
+R05	2	Hector
+R09	2	SemCor
+R12	2	british national corpus
+R13	2	Oxford English dictionary
+R16	2	open mind word expert
+R19	2	subject codes
+V01	2	semeval
+A01	1	word sense disambiguation for text processing
+E02	1	coverage metric for evaluating word sense disambiguation
+F01	1	topic signatures
+M11	1	recursive filtering approach for word sense disambiguation
+M12	1	iterative approach for word sense disambiguation
+M16	1	bootstrapping using semi-automatic dictionary drafting
+M23	1	supervised disambiguation using log linear models
+M24	1	supervised disambiguation using graphical models
+M26	1	supervised disambiguation using perceptrons
+M27	1	supervised disambiguation using expectation maximization
+M28	1	supervised disambiguation using decomposable probablistic models
+M30	1	supervised disambiguation using transformation-based learning
+M35	1	supervised disambiguation using HMM
+M37	1	supervised disambiguation using log linear models
+M57	1	corpus based disambiguation
+M42	1	heuristic based methods
+M45	1	semantic similarity using gloss based paths across different hierarchies
+M48	1	knowledge based disambiguation using structural semantic intreconnectedness (SSI)
+M49	1	knowledge based disambiguation using wikipedia and wordnet
+M53	1	word experts
+M58	1	hybrid approaches for word sense disambiguation
+M59	1	word sense disambiguation using concept trees
+P01	1	word sense induction
+P03	1	merging word senses
+R06	1	Macquarie Thesauras
+R07	1	DSO Corpus
+R08	1	MultiSemCor
+R10	1	gigaword corpus
+R17	1	sense inventory
+R18	1	ontonotes

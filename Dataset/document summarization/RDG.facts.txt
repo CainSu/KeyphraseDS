@@ -1,0 +1,224 @@
+* Factoid Sources
+** Tutorials
+     |----+---------------------------------------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                                                            |
+     |----+---------------------------------------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/orasan-ranlp-2009-100909172803-phpapp01.pdf |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/P11-5003.pdf                                |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/sigirtutorial2004.pdf                       |
+     | T4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/15-Summarization.pdf                        |
+     |----+---------------------------------------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+-------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                        |
+   |----+-------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/05404226.pdf            |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/05635127.pdf            |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/1500000015-Nenkova.pdf  |
+   | S4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/das-martins07.pdf       |
+   | S5 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/978-1-4614-3223-4_3.pdf |
+   | S6 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/znalosti2008-Jezek.pdf  |
+   | S7 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/summ/radevetal02.pdf         |
+   |----+-------------------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+--------------------------------------------------------------------------------+----+----+----+----+----+----+----+--------|
+| Factoid # | Factoid                                                                        | T1 | T2 | T3 | T4 | S3 | S4 | S6 | #Total |
+|-----------+--------------------------------------------------------------------------------+----+----+----+----+----+----+----+--------|
+| P04       | multi-document summarization                                                   | X  | X  | X  | X  | X  | X  | X  | 7 X    |
+| P03       | single-document summarization                                                  | X  | X  | X  | X  | X  | X  | X  | 7 X    |
+| P02       | abstractive summarization                                                      | X  | X  | X  | X  | X  | X  | X  | 7 X    |
+| P01       | extractive summarization                                                       | X  | X  | X  | X  | X  | X  | X  | 7 X    |
+| F01       | word / term frequency as feature                                               | X  | X  | X  | X  | X  | X  | X  | 7 X    |
+| M03       | Naive Bayes (Kupiec 95)                                                        | X  | X  | X  |    | X  | X  | X  | 6 X    |
+| M02       | Maximal Margin Relevance (MMR)                                                 | X  | X  | X  |    | X  | X  | X  | 6 X    |
+| M01       | Rhetorical Parsing / Rhetorical Structure Theory (RST)                         | X  |    | X  | X  | X  | X  | X  | 6 X    |
+| M05       | Hidden Markov Model (HMM)                                                      | X  | X  | X  |    | X  | X  |    | 5 X    |
+| M04       | lexical chains                                                                 |    | X  | X  |    | X  | X  | X  | 5 X    |
+| F04       | sentence length as feature                                                     | X  | X  | X  |    | X  | X  |    | 5 X    |
+| F03       | sentence location / position as feature                                        | X  | X  | X  | X  |    | X  |    | 5 X    |
+| F02       | cue words as feature                                                           | X  | X  | X  | X  |    | X  |    | 5 X    |
+| D01       | definition of summarization                                                    | X  | X  |    | X  | X  |    | X  | 5 X    |
+| V02       | DUC                                                                            | X  |    | X  |    | X  | X  |    | 4 X    |
+| V01       | SUMMAC                                                                         | X  |    | X  |    | X  | X  |    | 4 X    |
+| P07       | query focused summarization                                                    |    |    | X  | X  | X  |    | X  | 4 X    |
+| P06       | summarization classification by dimensions (query-specific, query-independent) |    |    | X  | X  | X  |    | X  | 4 X    |
+| P05       | summarization classification by purpose (indicative, informative, critical)    |    |    | X  | X  | X  |    | X  | 4 X    |
+| M06       | maximum entropy / log linear models                                            | X  | X  | X  |    |    | X  |    | 4 X    |
+| F10       | topic signatures                                                               |    | X  | X  |    | X  | X  |    | 4 X    |
+| E02       | ROUGE                                                                          | X  | X  |    |    | X  | X  |    | 4 X    |
+| E01       | precision / recall as evaluation metric                                        | X  | X  | X  |    | X  |    |    | 4 X    |
+| P11       | information retrieval                                                          | X  |    |    | X  |    | X  |    | 3 X    |
+| P10       | information overload                                                           |    |    | X  |    | X  |    | X  | 3 X    |
+| P09       | summarization motivation                                                       |    | X  | X  |    | X  |    |    | 3 X    |
+| O01       | headline as example                                                            | X  |    | X  | X  |    |    |    | 3 X    |
+| M23       | information fusion                                                             |    | X  |    |    | X  | X  |    | 3 X    |
+| M12       | sentence compression                                                           |    |    | X  |    | X  | X  |    | 3 X    |
+| M11       | argumentative zoning                                                           | X  |    | X  |    | X  |    |    | 3 X    |
+| M10       | lexrank                                                                        |    | X  | X  |    |    |    | X  | 3 X    |
+| M09       | Centroid based summarization                                                   | X  |    | X  |    |    | X  |    | 3 X    |
+| M08       | Noisy channel Model                                                            | X  |    | X  |    |    | X  |    | 3 X    |
+| M07       | Latent Semantic Analysis (LSA)                                                 |    | X  |    |    | X  |    | X  | 3 X    |
+| F08       | uppercase words as feature                                                     |    |    | X  |    | X  | X  |    | 3 X    |
+| F07       | TF*IDF scoring                                                                 | X  | X  |    |    | X  |    |    | 3 X    |
+| F06       | discourse structure as feature                                                 | X  |    | X  | X  |    |    |    | 3 X    |
+| F05       | title as feature                                                               | X  |    | X  | X  |    |    |    | 3 X    |
+| E03       | pyramid method                                                                 |    | X  | X  |    | X  |    |    | 3 X    |
+| A02       | Google News                                                                    | X  |    | X  |    |    | X  |    | 3 X    |
+| A01       | newsinessence                                                                  | X  |    | X  |    |    | X  |    | 3 X    |
+| V04       | NIST                                                                           |    |    |    |    | X  | X  |    | 2 X    |
+| V03       | TREC                                                                           |    |    | X  |    |    | X  |    | 2 X    |
+| S03       | SUMMARIST                                                                      |    |    | X  |    |    | X  |    | 2 X    |
+| S02       | FRUMP                                                                          | X  |    | X  |    |    |    |    | 2 X    |
+| S01       | MEAD                                                                           |    |    | X  |    |    | X  |    | 2 X    |
+| P28       | update summarization                                                           |    | X  |    |    | X  |    |    | 2 X    |
+| P27       | opinion summarization                                                          | X  | X  |    |    |    |    |    | 2 X    |
+| P26       | output factors                                                                 | X  |    |    | X  |    |    |    | 2 X    |
+| P25       | purpose factors                                                                | X  |    |    | X  |    |    |    | 2 X    |
+| P24       | input factors                                                                  | X  |    |    | X  |    |    |    | 2 X    |
+| P23       | information ordering                                                           |    | X  |    |    | X  |    |    | 2 X    |
+| P22       | question answering                                                             | X  |    |    | X  |    |    |    | 2 X    |
+| P21       | cross sentence informational subsumption                                       |    |    | X  |    |    | X  |    | 2 X    |
+| P20       | disfluencies                                                                   |    | X  |    |    | X  |    |    | 2 X    |
+| P19       | cohesion                                                                       |    |    | X  | X  |    |    |    | 2 X    |
+| P18       | abridgements                                                                   | X  |    | X  |    |    |    |    | 2 X    |
+| P17       | biographies                                                                    | X  |    | X  |    |    |    |    | 2 X    |
+| P16       | outlines                                                                       | X  |    | X  |    |    |    |    | 2 X    |
+| P15       | headline generation                                                            |    |    | X  |    | X  |    |    | 2 X    |
+| P14       | summarization genres                                                           | X  |    | X  |    |    |    |    | 2 X    |
+| P13       | information extraction                                                         | X  |    |    | X  |    |    |    | 2 X    |
+| P12       | speech summarization                                                           |    | X  |    |    | X  |    |    | 2 X    |
+| M22       | sentence fusion                                                                |    |    |    |    | X  | X  |    | 2 X    |
+| M21       | content selection                                                              |    | X  | X  |    |    |    |    | 2 X    |
+| M20       | text generation                                                                | X  |    |    |    | X  |    |    | 2 X    |
+| M19       | knowledge rich approaches                                                      | X  |    | X  |    |    |    |    | 2 X    |
+| M18       | sentence reordering                                                            |    |    | X  |    | X  |    |    | 2 X    |
+| M17       | Integer Linear Programming (ILP)                                               |    | X  |    |    | X  |    |    | 2 X    |
+| M16       | Dynamic programming                                                            |    | X  |    |    | X  |    |    | 2 X    |
+| M15       | text cohesion                                                                  | X  |    |    | X  |    |    |    | 2 X    |
+| M14       | text coherence                                                                 |    |    | X  |    |    |    | X  | 2 X    |
+| M13       | optimum position policy (OPP)                                                  |    |    |    | X  |    | X  |    | 2 X    |
+| F09       | lexical centrality                                                             |    | X  | X  |    |    |    |    | 2 X    |
+| E09       | Relative Utility                                                               | X  |    |    |    | X  |    |    | 2 X    |
+| E08       | summary content units (SCU)                                                    |    | X  |    |    | X  |    |    | 2 X    |
+| E07       | JS divergence for automatic evaluation                                         |    | X  |    |    |    | X  |    | 2 X    |
+| E06       | Summary Evaluation Environment (SEE)                                           | X  |    |    |    |    | X  |    | 2 X    |
+| E05       | intrinsic evaluation                                                           | X  |    | X  |    |    |    |    | 2 X    |
+| E04       | extrinsic evaluation                                                           | X  |    | X  |    |    |    |    | 2 X    |
+| D02       | definition of a summary                                                        | X  |    |    |    |    | X  |    | 2 X    |
+| A03       | newsblaster                                                                    | X  |    |    |    |    | X  |    | 2 X    |
+|           | PROFILE                                                                        |    |    |    |    | X  |    |    | X      |
+|           | context dependent revisions                                                    |    |    |    |    | X  |    |    | X      |
+|           | deeper level approaches                                                        |    |    |    |    |    |    | X  | X      |
+|           | surface level approaches                                                       |    |    |    |    |    |    | X  | X      |
+|           | speech related features                                                        |    | X  |    |    |    |    |    | X      |
+|           | contextual features                                                            |    | X  |    |    |    |    |    | X      |
+|           | Text Analytics Conference (TAC)                                                |    |    |    |    | X  |    |    | X      |
+|           | keyword summary                                                                |    |    |    |    | X  |    |    | X      |
+|           | minutes                                                                        |    |    | X  |    |    |    |    | X      |
+|           | DefScriber                                                                     |    |    |    |    | X  |    |    | X      |
+|           | biographical summarization                                                     |    |    |    |    | X  |    |    | X      |
+|           | sound bites                                                                    |    |    | X  |    |    |    |    | X      |
+|           | movie summaries                                                                |    |    | X  |    |    |    |    | X      |
+|           | abstracts of papers                                                            |    |    |    | X  |    |    |    | X      |
+|           | chronologies                                                                   |    |    | X  |    |    |    |    | X      |
+|           | content identification                                                         |    |    | X  |    |    |    |    | X      |
+|           | conceptual organization                                                        |    |    | X  |    |    |    |    | X      |
+|           | concept based abstracting                                                      | X  |    |    |    |    |    |    | X      |
+|           | realization                                                                    |    |    | X  |    |    |    |    | X      |
+|           | professional abstractors                                                       |    |    | X  |    |    |    |    | X      |
+|           | concentration of high score words as features                                  |    |    | X  |    |    |    |    | X      |
+|           | multiple regression analysis                                                   |    |    |    | X  |    |    |    | X      |
+|           | cohesion text maps                                                             | X  |    |    |    |    |    |    | X      |
+|           | theme fusion                                                                   | X  |    |    |    |    |    |    | X      |
+|           | FUF/SURGE                                                                      |    |    |    |    |    | X  |    | X      |
+|           | discourse cohesion                                                             | X  |    |    |    |    |    |    | X      |
+|           | Latent Semantic Indexing (LSI)                                                 |    |    |    |    |    | X  |    | X      |
+|           | weighted recall                                                                |    |    |    |    |    | X  |    | X      |
+|           | coreference chain selection                                                    | X  |    |    |    |    |    |    | X      |
+|           | coreference information                                                        |    |    |    |    | X  |    |    | X      |
+|           | DEMS                                                                           |    |    |    |    | X  |    |    | X      |
+|           | Sequential document representation                                             |    |    |    |    |    | X  |    | X      |
+|           | Conditional Random Fields                                                      |    | X  |    |    |    |    |    | X      |
+|           | Bayesian networks                                                              |    | X  |    |    |    |    |    | X      |
+|           | SVM                                                                            |    | X  |    |    |    |    |    | X      |
+|           | ranking approaches                                                             |    | X  |    |    |    |    |    | X      |
+|           | MERT discriminative training                                                   |    | X  |    |    |    |    |    | X      |
+|           | sampling for summarization                                                     |    | X  |    |    |    |    |    | X      |
+|           | Regresssion                                                                    |    | X  |    |    |    |    |    | X      |
+|           | Active learning                                                                |    | X  |    |    |    |    |    | X      |
+|           | Graph Spreading Activation                                                     |    |    |    |    |    | X  |    | X      |
+|           | dynamic programming                                                            |    | X  |    |    |    |    |    | X      |
+|           | acoustic information                                                           |    | X  |    |    |    |    |    | X      |
+|           | Bayesian content models                                                        |    | X  |    |    |    |    |    | X      |
+|           | SumBasic                                                                       |    | X  |    |    |    |    |    | X      |
+|           | Topic Detection and Tracking                                                   |    |    | X  |    |    |    |    | X      |
+|           | Theme intersection                                                             |    |    | X  |    |    |    |    | X      |
+|           | reformulation                                                                  |    |    | X  |    |    |    |    | X      |
+|           | generation by selection and repair                                             |    |    | X  |    |    |    |    | X      |
+|           | generic summarization                                                          |    |    |    |    | X  |    |    | X      |
+|           | scripts                                                                        |    |    | X  |    |    |    |    | X      |
+|           | compression ratio as evaluation metric                                         |    |    | X  |    |    |    |    | X      |
+|           | retention ratio as evaluation metric                                           |    |    | X  |    |    |    |    | X      |
+|           | granularity                                                                    |    | X  |    |    |    |    |    | X      |
+|           | semantic equivalence                                                           |    | X  |    |    |    |    |    | X      |
+|           | Cluster based sentence utility                                                 |    |    | X  |    |    |    |    | X      |
+|           | interjudge agreement                                                           |    |    | X  |    |    |    |    | X      |
+|           | relative utility                                                               |    |    | X  |    |    |    |    | X      |
+|           | cluster based relative utility                                                 |    |    |    |    |    | X  |    | X      |
+|           | websumm                                                                        |    |    | X  |    |    |    |    | X      |
+|           | kappa                                                                          |    |    | X  |    |    |    |    | X      |
+|           | MUC                                                                            |    |    |    |    |    | X  |    | X      |
+|           | language modeling                                                              |    |    | X  |    |    |    |    | X      |
+|           | word ordering                                                                  |    |    | X  |    |    |    |    | X      |
+|           | graph based methods                                                            |    |    |    |    | X  |    |    | X      |
+|           | cosine centrality                                                              |    |    | X  |    |    |    |    | X      |
+|           | question based summaries                                                       |    |    | X  |    |    |    |    | X      |
+|           | sentence revision                                                              |    |    |    |    | X  |    |    | X      |
+|           | summarization of OCRed text                                                    |    |    | X  |    |    |    |    | X      |
+|           | summarization of legal texts                                                   |    |    | X  |    |    |    |    | X      |
+|           | probabilistic content models                                                   |    |    | X  |    |    |    |    | X      |
+|           | decision trees                                                                 |    |    |    |    |    | X  |    | X      |
+|           | cosine similarity for automatic evaluation                                     |    | X  |    |    |    |    |    | X      |
+|           | KL divergence for automatic evaluation                                         |    | X  |    |    |    |    |    | X      |
+|           | mutliple sequence alignment                                                    |    |    | X  |    |    |    |    | X      |
+|           | DUC corpus                                                                     |    |    | X  |    |    |    |    | X      |
+|           | summbank                                                                       |    |    | X  |    |    |    |    | X      |
+|           | SUMMAC corpus                                                                  |    |    | X  |    |    |    |    | X      |
+|           | data mining                                                                    | X  |    |    |    |    |    |    | X      |
+|           | opinion mining and summarization                                               | X  |    |    |    |    |    |    | X      |
+|           | context factors                                                                | X  |    |    |    |    |    |    | X      |
+|           | black box evluation                                                            | X  |    |    |    |    |    |    | X      |
+|           | glass box evaluation                                                           | X  |    |    |    |    |    |    | X      |
+|           | off-line evaluation                                                            | X  |    |    |    |    |    |    | X      |
+|           | text-to-text generation                                                        |    |    |    |    | X  |    |    | X      |
+|           | on line evaluation                                                             | X  |    |    |    |    |    |    | X      |
+|           | direct evaluation                                                              | X  |    |    |    |    |    |    | X      |
+|           | target based evaluation                                                        | X  |    |    |    |    |    |    | X      |
+|           | manually annotated corpora                                                     | X  |    |    |    |    |    |    | X      |
+|           | neural networks                                                                |    |    |    |    |    | X  |    | X      |
+|           | RankNet                                                                        |    |    |    |    |    | X  |    | X      |
+|           | BLEU                                                                           |    |    |    |    |    | X  |    | X      |
+|           | Cross Structure Theory (CST)                                                   | X  |    |    |    |    |    |    | X      |
+|           | email summarization                                                            | X  |    |    |    |    |    |    | X      |
+|           | responsiveness                                                                 |    | X  |    |    |    |    |    | X      |
+|           | co-training                                                                    |    | X  |    |    |    |    |    | X      |
+|           | text mining                                                                    |    |    |    | X  |    |    |    | X      |
+|           | text classification                                                            |    |    |    | X  |    |    |    | X      |
+|           | text clustering                                                                |    |    |    | X  |    |    |    | X      |
+|           | medical summarization                                                          |    |    |    |    | X  |    |    | X      |
+|           | medical journal article summarization                                          |    |    |    |    | X  |    |    | X      |
+|           | impact summary                                                                 |    |    |    |    | X  |    |    | X      |
+|           | citation summary                                                               |    |    |    |    | X  |    |    | X      |
+|           | email summarization                                                            |    |    |    |    | X  |    |    | X      |
+|           | web summarization                                                              |    |    |    |    | X  |    |    | X      |
+|           | SUMMONS                                                                        |    |    |    |    |    | X  |    | X      |
+|           | mutlilingual multi document summarization                                      |    |    |    |    |    | X  |    | X      |
+|           | textrank                                                                       |    |    |    |    |    |    | X  | X      |
+|           | cut and paste strategy                                                         |    |    |    |    |    |    | X  | X      |
+|           | non negative matrix factorization (NNMF)                                       |    |    |    |    |    |    | X  | X      |
+|           | semi discrete matrix decomposition (SDD)                                       |    |    |    |    |    |    | X  | X      |
+|-----------+--------------------------------------------------------------------------------+----+----+----+----+----+----+----+--------|
+
+  #+TBLFM: $9=vsum($2..$8)

@@ -1,0 +1,103 @@
+P38	6	non-projective dependency structures / trees
+P29	6	projectivity / projective dependency trees
+M02	5	deterministic parsing approaches: Nivre's algorithm
+P01	4	terminology: head - dependent
+M11	4	grammar driven approaches for dependency parsing
+M10	4	learning methods: Memory Based Learning (MBL)
+M09	4	learning methods: Support Vector Machines (SVM)
+M08	4	deterministic parsing approaches: Covington's incremental algorithm
+M07	4	eisner's bilexical algorithm
+M06	4	CKY parser
+M05	4	parsing methods: deterministic parsing
+M04	4	parsing methods: constraint satisfaction
+M03	4	parsing methods: dynamic programming
+D03	4	dependency grammar definition
+V01	3	Venue: CoNLL shared task
+S03	3	system: CDG parser
+S02	3	system: MaltParser
+S01	3	system: MSTParser
+P33	3	constraint dependency grammar
+P28	3	properties: single-head
+P27	3	properties: acyclicity
+P26	3	properties: connectedness
+P25	3	dependency graphs
+P22	3	tricky cases: coordination
+P18	3	issues: exocentric vs endocentric constructions
+P14	3	dependency relations
+P10	3	(Weighted) Constraint Dependency Grammar (WCDG)
+P09	3	Meaning Text Theory (MTT)
+P07	3	Functional Generative Description (FGD)
+P06	3	word grammar (WG)
+M23	3	non-projective dependency parsing: Pseudo-projective parsing
+M22	3	learning methods: Maximum Entropy modeling (MaxEnt)
+M21	3	classifier-based / data-driven deterministic parsing
+M20	3	deterministic parsing approaches: Yamada and Matsumoto's deterministic discriminative approach
+M19	3	transformation based constraint dependency parsing
+M18	3	Maruyama's constraint propagation
+M17	3	eisner's probability models: recursive generation
+M16	3	dynamic programming approaches: mcdonand's maximum spanning trees
+M15	3	dynamic programming approaches: bilexical grammar
+M14	3	dynamic programming approaches: link grammar
+M13	3	dependency chart parsing
+M12	3	non-projective dependency parsing
+M01	3	data driven approaches for dependency parsing
+E03	3	evaluation metrics: precision/recall/f-score
+E02	3	evaluation metrics: Attachment score
+E01	3	evaluation metrics: Exact match
+D02	3	dependency structures definition
+S08	2	system: Link Grammar Parser
+S07	2	system: Pro3Gres
+S06	2	system: CaboCha
+S05	2	system: Minipar
+S04	2	system: probablistic dependency parser
+R05	2	METU-Sabanchi Turkish Treebank
+R04	2	Floresta sinta(c)tica
+R03	2	Danish Dependency Treebank
+R02	2	Prague Dependency Treebank
+R01	2	Prague Arabic Dependency Treebank
+P37	2	aspects of problem: expressivity
+P36	2	aspects of problem: word order
+P35	2	aspects of problem: transparency
+P34	2	free word order
+P19	2	head-complement vs head-modifier
+P17	2	issues: syntactic vs semantic criteria
+P15	2	mono-stratal vs multi-stratal syntactic representations
+P12	2	Topological/Extensible Dependency Grammar (T/XDG)
+P11	2	Functional Dependency Grammar (FDG)
+P08	2	Dependency Unification Grammar (DUG)
+P05	2	hybrid representations
+P04	2	phrase structures
+P03	2	terminology: regent - subordinate
+P02	2	terminology: governor - modifier
+M37	2	multilingual dependency parsing
+M36	2	non-projective dependency parsing: approximate non-projective parsing
+M35	2	non-projective dependency parsing: corrective modeling
+M34	2	deterministic parsing approaches: Yamada's algorithm
+M33	2	deterministic parsing approaches: shift reduce type algorithms
+M32	2	weighted constraint parsing
+M31	2	constraint satisfaction approaches: topological dependency grammar
+M30	2	eliminative vs constructive parsing
+M29	2	eisner's probability models: selectional preferences
+M28	2	eisner's probability models: bigram lexical affinities
+M27	2	eisner's probability models
+M26	2	eisner's bilexical algorithm complexity O(n^3)
+M25	2	dynamic programming approaches: earley style parser with left-corner filtering
+M24	2	transition based dependency parsing
+F06	2	features: dependency type
+F05	2	features: part of speech
+F04	2	features: word form and lemma
+F03	2	features: structural context
+F02	2	features: linear context
+F01	2	features: target tokens
+E04	2	evaluation metrics: correct root
+D04	2	phrase structure grammar definition
+D01	2	dependency syntax definition
+P32	1	probabilistic CFG
+P31	1	context free depdenency grammar
+P30	1	planarity
+P24	1	tricky cases: punctuation
+P23	1	tricky cases: prepositional phrases
+P21	1	tricky cases: subordinate clauses
+P20	1	tricky cases: complex verb groups
+P16	1	criteria for a syntactic relation between head and dependent
+P13	1	Dependency Grammar Logic (DGL)

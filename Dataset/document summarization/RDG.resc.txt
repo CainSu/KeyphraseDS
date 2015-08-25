@@ -1,0 +1,16 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: orasan-ranlp-2009-100909172803-phpapp01.pdf ::: Constantin Orasan ::: 2009 ::: Automatic summarisation in the Information Age ::: NA
+T2 ::: P11-5003.pdf ::: Ani Nenkova; Sameer Maskey; Yang Liu ::: 2011 ::: Automatic Summarization ::: NA
+T3 ::: sigirtutorial2004.pdf ::: Dragomir R. Radev ::: 2004 ::: SIGIR
+T4 ::: 15-Summarization.pdf ::: NA ::: NA ::: NA ::: NA
+
+# Surveys
+S1 ::: 05404226.pdf ::: Saeedeh Gholamrezazadeh; Mohsen Amini Salehi; Bahareh Gholamzadeh ::: 2009 ::: A Comprehensive Survey on Text Summarization Systems ::: CSA
+S2 ::: 05635127.pdf ::: Sicui Wang; Weijiang Li; Feng Wang; Hui Deng ::: 2010 ::: A Survey on Automatic Summarization ::: IFITA
+S3 ::: 1500000015-Nenkova.pdf ::: Ani Nenkova; Kathleen McKeown ::: 2011 ::: Automatic Summarization ::: NOW surveys
+S4 ::: das-martins07.pdf ::: Dipanjan Das; Andre F.T. Martins ::: 2007 ::: A Survey on Automatic Text Summarization ::: NA
+S5 ::: 978-1-4614-3223-4_3.pdf ::: Ani Nenkova; Kathleen McKeown ::: 2012 ::: A Survey Of Text Summarization Techniques ::: Springer
+S6 ::: znalosti2008-Jezek.pdf ::: Karel Jezek; Josef Steinberger ::: 2008 ::: Automatic Text Summarization (The state of the art 2007 and new challenges) ::: NA
+S7 ::: radevetal02.pdf ::: Dragomir R. Radev; Kathleen McKeown ::: 2002 ::: Introduction to the Special Issue on Summarization ::: Computational Linguistics

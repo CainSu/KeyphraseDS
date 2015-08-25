@@ -1,0 +1,142 @@
+* Factoid Sources
+** Tutorials
+
+   |----+----------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                           |
+   |----+----------------------------------------------------------------------------------------------------------------|
+   | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/presentations/emnlp11.pdf   |
+   | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/presentations/WSD.pdf       |
+   | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/presentations/new3.pdf      |
+   | T4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/presentations/Lecture13.pdf |
+   |----+----------------------------------------------------------------------------------------------------------------|
+** Surveys
+
+   |----+------------------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                                   |
+   |----+------------------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/surveys/acl_wiki_survey_wsd.txt     |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/surveys/wsdbook-2006-ch1.pdf        |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/surveys/wsd_survey_2005.pdf         |
+   | S4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/surveys/wsd_survey_navigli_2009.pdf |
+   | S5 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/wsd/surveys/1998wsd.pdf                 |
+   |----+------------------------------------------------------------------------------------------------------------------------|
+
+
+
+* Factoids 
+
+|-----------+-----------------------------------------------------------------------------------------+----+----+----+----+----+----+----+----+----+---------|
+| Factoid # | Factoid                                                                                 | T1 | T2 | T3 | T4 | S1 | S2 | S3 | S4 | S5 | # Total |
+|-----------+-----------------------------------------------------------------------------------------+----+----+----+----+----+----+----+----+----+---------|
+| D01       | definition of word sense dismabiguation                                                 | X  | X  | X  | X  | X  | X  | X  | X  | X  | 9 X     |
+| R01       | wordnet                                                                                 | X  | X  | X  |    | X  | X  | X  | X  | X  | 8 X     |
+| M01       | knowledge based word sense disambiguation                                               |    | X  | X  | X  | X  | X  |    | X  | X  | 7 X     |
+| M02       | supervised word sense disambiguation                                                    | X  | X  | X  | X  | X  | X  |    | X  |    | 7 X     |
+| M03       | word sense disambiguation using multilingual / parallel language texts                  | X  | X  | X  |    |    | X  | X  | X  | X  | 7 X     |
+| V02       | senseval                                                                                | X  | X  | X  |    | X  | X  |    | X  | X  | 7 X     |
+| D02       | definition of word senses                                                               | X  |    | X  | X  |    | X  |    | X  | X  | 6 X     |
+| M04       | knowledge based disambiguation using machine readable dictionaries                      |    | X  | X  |    | X  | X  |    | X  | X  | 6 X     |
+| M13       | unsupervised word sense disambiguation                                                  |    | X  | X  | X  |    | X  | X  | X  |    | 6 X     |
+| M20       | bootstrapping algorithms                                                                | X  | X  | X  |    |    | X  | X  | X  |    | 6 X     |
+| M32       | supervised disambiguation using decision lists                                          | X  | X  | X  | X  | X  |    |    | X  |    | 6 X     |
+| M55       | knowledge based disambiguation using selectional restrictions / preferences             |    |    | X  |    | X  | X  | X  | X  | X  | 6 X     |
+| M56       | knowledge based disambiguation using the lesk algorithm                                 |    | X  | X  |    |    | X  | X  | X  | X  | 6 X     |
+| R03       | LDOCE (Longman Dictionary of Contemporary English)                                      |    |    | X  | X  |    | X  | X  | X  | X  | 6 X     |
+| M17       | bootstrapping using yarowsky algorithm                                                  |    | X  | X  |    | X  | X  |    | X  |    | 5 X     |
+| M41       | heuristic of one sense per discourse                                                    | X  |    | X  | X  |    | X  |    |    | X  | 5 X     |
+| M52       | knowledge based disambiguation using semantic similarity                                |    | X  | X  |    | X  | X  |    | X  |    | 5 X     |
+| R15       | Roget's International Thesuarus                                                         |    |    | X  | X  |    | X  |    | X  | X  | 5 X     |
+| A06       | word sense disambiguation for information retrieval                                     |    |    |    |    |    | X  | X  | X  | X  | 4 X     |
+| A07       | word sense disambiguation for machine translation                                       |    |    |    |    |    | X  | X  | X  | X  | 4 X     |
+| E09       | most frequent sense baseline (or lower bound) for word sense disambiguation             |    | X  | X  |    |    |    | X  | X  |    | 4 X     |
+| M10       | unsupervised word sense disambiguation using clustering                                 |    | X  | X  |    |    | X  |    |    | X  | 4 X     |
+| M31       | supervised disambiguation using naive bayes                                             | X  | X  | X  |    |    |    |    | X  |    | 4 X     |
+| M40       | heuristic of one sense per collocation                                                  | X  |    | X  | X  |    |    |    |    | X  | 4 X     |
+| P04       | granularity of word senses                                                              |    | X  |    |    |    | X  |    | X  | X  | 4 X     |
+| P05       | lexical sample / targeted word sense disambiguation                                     |    |    | X  | X  |    |    | X  | X  |    | 4 X     |
+| P08       | all words word sense disambiguation                                                     |    |    | X  | X  |    |    | X  | X  |    | 4 X     |
+| A05       | word sense disambiguation for information extraction                                    |    |    |    |    |    | X  | X  | X  |    | 3 X     |
+| E03       | precision and recall metrics for evaluating word sense disambiguation                   |    |    | X  |    |    |    | X  | X  |    | 3 X     |
+| E05       | pseudo words (banana-door)                                                              | X  | X  | X  |    |    |    |    |    |    | 3 X     |
+| E07       | upper bound of inter-annotator agreement                                                |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| E08       | random baseline (or lower bound) for word sense disambiguation                          |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| M09       | unsupervised word sense disambiguation using latent semantic indexing / analysis or SVD |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| M21       | semi supervised disambiguation                                                          |    |    | X  |    |    | X  |    | X  |    | 3 X     |
+| M22       | supervised disambiguation using ensemble of classifiers                                 |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| M29       | supervised disambiguation using maximum entropy                                         | X  | X  |    |    |    |    | X  |    |    | 3 X     |
+| M33       | supervised disambiguation using decision tress                                          |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| M38       | supervised disambiguation using SVM                                                     |    | X  | X  |    |    |    |    | X  |    | 3 X     |
+| M47       | semantic similarity using semantic networks                                             |    |    | X  |    |    |    |    | X  | X  | 3 X     |
+| P02       | clustering/relating wordnet senses                                                      |    | X  |    |    |    |    |    | X  | X  | 3 X     |
+| R04       | sense tagged text                                                                       | X  |    | X  |    |    | X  |    |    |    | 3 X     |
+| R11       | wall street journal corpus                                                              |    |    | X  |    |    |    |    | X  | X  | 3 X     |
+| R14       | Collin's dictionary                                                                     |    |    | X  |    |    |    |    | X  | X  | 3 X     |
+| A02       | word sense disambiguation for content analysis                                          |    |    |    |    |    |    |    | X  | X  | 2 X     |
+| A03       | word sense disambiguation for lexicography                                              |    |    |    |    |    | X  |    | X  |    | 2 X     |
+| A04       | word sense disambiguation for speech processing                                         |    |    |    |    |    |    | X  |    | X  | 2 X     |
+| A08       | applications of WSD                                                                     |    |    |    |    |    | X  |    | X  |    | 2 X     |
+| D03       | definition of word sense discrimination                                                 |    |    |    | X  | X  |    |    |    |    | 2 X     |
+| E01       | evaluation of word sense induction                                                      |    | X  | X  |    |    |    |    |    |    | 2 X     |
+| E04       | in vivo / end-to-end evaluation                                                         |    |    |    |    |    |    |    | X  | X  | 2 X     |
+| E06       | in vitro / standalone evaluation                                                        |    |    |    |    |    |    |    | X  | X  | 2 X     |
+| M05       | co-occurence graph for word sense induction                                             |    | X  |    |    |    |    |    | X  |    | 2 X     |
+| M06       | word sense induction using clustering by committee                                      |    | X  |    |    |    |    |    | X  |    | 2 X     |
+| M07       | word sense induction using context group discrimination                                 |    | X  |    |    |    |    |    | X  |    | 2 X     |
+| M08       | distributional approaches for word sense induction                                      |    | X  |    |    |    | X  |    |    |    | 2 X     |
+| M14       | web based bootstrapping                                                                 |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M15       | build tagged corpopra using monosemous relatives                                        |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M18       | bootstrapping using self-training                                                       |    | X  | X  |    |    |    |    |    |    | 2 X     |
+| M19       | bootstrapping using co-training                                                         |    | X  | X  |    |    |    |    |    |    | 2 X     |
+| M25       | supervised disambiguation using neural networks                                         |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M34       | supervised disambiguation using nearest neighbor classifiers                            | X  |    | X  |    |    |    |    |    |    | 2 X     |
+| M36       | supervised disambiguation using exemplar-based / memory-based / instance-based learning |    |    |    |    |    |    | X  | X  |    | 2 X     |
+| M43       | semantic similarity using lexical chains                                                |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M44       | semantic similarity using conceptual density measure                                    |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M46       | semantic similarity using information content                                           |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| M50       | knowledge based disambiguation using graphical methods                                  |    | X  |    |    |    |    |    | X  |    | 2 X     |
+| M51       | knowledge based disambiguation using conceptual density                                 |    | X  |    | X  |    |    |    |    |    | 2 X     |
+| M54       | preference semantics                                                                    |    |    |    |    |    | X  |    |    | X  | 2 X     |
+| M57       | corpus based word sense disambiguation                                                  |    |    |    |    |    |    |    | X  | X  | 2 X     |
+| P06       | domain-driven / domain-specific word sense disambiguation                               |    |    |    |    |    |    | X  | X  |    | 2 X     |
+| P07       | polysemy                                                                                | X  |    |    |    |    | X  |    |    |    | 2 X     |
+| R05       | Hector                                                                                  |    |    | X  |    |    | X  |    |    |    | 2 X     |
+| R09       | SemCor                                                                                  |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| R12       | british national corpus                                                                 |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| R13       | Oxford English dictionary                                                               |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| R16       | open mind word expert                                                                   |    |    | X  |    |    |    |    | X  |    | 2 X     |
+| R19       | subject codes                                                                           |    |    |    | X  |    |    | X  |    |    | 2 X     |
+| V01       | semeval                                                                                 |    | X  |    |    |    |    |    | X  |    | 2 X     |
+| A01       | word sense disambiguation for text processing                                           |    |    |    |    |    |    |    |    | X  | X       |
+| E02       | coverage metric for evaluating word sense disambiguation                                |    |    |    |    |    |    |    | X  |    | X       |
+| F01       | topic signatures                                                                        |    |    |    |    |    |    |    | X  |    | X       |
+| M11       | recursive filtering approach for word sense disambiguation                              |    |    |    |    |    |    | X  |    |    | X       |
+| M12       | iterative approach for word sense disambiguation                                        |    |    |    |    |    |    | X  |    |    | X       |
+| M16       | bootstrapping using semi-automatic dictionary drafting                                  |    | X  |    |    |    |    |    |    |    | X       |
+| M23       | supervised disambiguation using log linear models                                       |    |    | X  |    |    |    |    |    |    | X       |
+| M24       | supervised disambiguation using graphical models                                        |    |    | X  |    |    |    |    |    |    | X       |
+| M26       | supervised disambiguation using perceptrons                                             |    |    | X  |    |    |    |    |    |    | X       |
+| M27       | supervised disambiguation using expectation maximization                                |    |    |    |    |    |    | X  |    |    | X       |
+| M28       | supervised disambiguation using decomposable probablistic models                        |    |    |    |    |    |    | X  |    |    | X       |
+| M30       | supervised disambiguation using transformation-based learning                           | X  |    |    |    |    |    |    |    |    | X       |
+| M35       | supervised disambiguation using HMM                                                     |    |    |    |    | X  |    |    |    |    | X       |
+| M37       | supervised disambiguation using log linear models                                       |    |    |    |    |    |    | X  |    |    | X       |
+| M57       | corpus based disambiguation                                                             |    |    |    |    | X  |    |    |    |    | X       |
+| M42       | heuristic based methods                                                                 |    |    | X  |    |    |    |    |    |    | X       |
+| M45       | semantic similarity using gloss based paths across different hierarchies                |    |    | X  |    |    |    |    |    |    | X       |
+| M48       | knowledge based disambiguation using structural semantic intreconnectedness (SSI)       |    |    |    |    |    |    |    | X  |    | X       |
+| M49       | knowledge based disambiguation using wikipedia and wordnet                              |    | X  |    |    |    |    |    |    |    | X       |
+| M53       | word experts                                                                            |    |    |    |    |    | X  |    |    |    | X       |
+| M58       | hybrid approaches for word sense disambiguation                                         |    |    |    |    | X  |    |    |    |    | X       |
+| M59       | word sense disambiguation using concept trees                                           |    |    |    |    |    |    | X  |    |    | X       |
+| P01       | word sense induction                                                                    |    | X  |    |    |    |    |    |    |    | X       |
+| P03       | merging word senses                                                                     |    | X  |    |    |    |    |    |    |    | X       |
+| R06       | Macquarie Thesauras                                                                     |    |    |    |    |    |    |    | X  |    | X       |
+| R07       | DSO Corpus                                                                              |    |    |    |    |    |    |    | X  |    | X       |
+| R08       | MultiSemCor                                                                             |    |    |    |    |    |    |    | X  |    | X       |
+| R10       | gigaword corpus                                                                         |    |    |    |    |    |    |    | X  |    | X       |
+| R17       | sense inventory                                                                         |    |    |    |    |    |    |    | X  |    | X       |
+| R18       | ontonotes                                                                               |    | X  |    |    |    |    |    |    |    | X       |
+|-----------+-----------------------------------------------------------------------------------------+----+----+----+----+----+----+----+----+----+---------|
+  #+TBLFM: $12=vsum($3..$11)
+
+

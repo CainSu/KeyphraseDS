@@ -1,0 +1,167 @@
+* Factoid Sources
+** Tutorials
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                                                  |
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/ACLslides.pdf                       |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/IASNLP_summer-school-depparsing.pdf |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/dependency_parsing.pdf              |
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+--------------------------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                                           |
+   |----+--------------------------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/morgan_clay_dp.pdf                           |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/05133.pdf                                    |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/dp/SRL_DEP-Literature_Survey-2012-Janardhan.pdf |
+   |----+--------------------------------------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+------------------------------------------------------------------------------------------------+----+----+----+----+----+----+-----------|
+| Factoid # | Factoid                                                                                        | T1 | T2 | T3 | S1 | S2 | S3 | #Factoids |
+|-----------+------------------------------------------------------------------------------------------------+----+----+----+----+----+----+-----------|
+| P38       | non-projective dependency structures / trees                                                   | X  | X  | X  | X  | X  | X  | 6 X       |
+| P29       | projectivity / projective dependency trees                                                     | X  | X  | X  | X  | X  | X  | 6 X       |
+| M02       | deterministic parsing approaches: Nivre's algorithm                                            | X  | X  | X  | X  | X  |    | 5 X       |
+| P01       | terminology: head - dependent                                                                  | X  | X  | X  |    | X  |    | 4 X       |
+| M11       | grammar driven approaches for dependency parsing                                               | X  | X  |    | X  | X  |    | 4 X       |
+| M10       | learning methods: Memory Based Learning (MBL)                                                  | X  | X  | X  | X  |    |    | 4 X       |
+| M09       | learning methods: Support Vector Machines (SVM)                                                | X  | X  | X  | X  |    |    | 4 X       |
+| M08       | deterministic parsing approaches: Covington's incremental algorithm                            | X  | X  | X  |    | X  |    | 4 X       |
+| M07       | eisner's bilexical algorithm                                                                   | X  |    | X  | X  | X  |    | 4 X       |
+| M06       | CKY parser                                                                                     | X  | X  |    | X  | X  |    | 4 X       |
+| M05       | parsing methods: deterministic parsing                                                         | X  | X  | X  |    | X  |    | 4 X       |
+| M04       | parsing methods: constraint satisfaction                                                       | X  | X  | X  |    | X  |    | 4 X       |
+| M03       | parsing methods: dynamic programming                                                           | X  | X  | X  |    | X  |    | 4 X       |
+| D03       | dependency grammar definition                                                                  |    | X  |    | X  | X  | X  | 4 X       |
+| V01       | Venue: CoNLL shared task                                                                       | X  |    | X  | X  |    |    | 3 X       |
+| S03       | system: CDG parser                                                                             | X  |    |    | X  | X  |    | 3 X       |
+| S02       | system: MaltParser                                                                             | X  | X  |    | X  |    |    | 3 X       |
+| S01       | system: MSTParser                                                                              | X  | X  |    | X  |    |    | 3 X       |
+| P33       | constraint dependency grammar                                                                  | X  | X  |    | X  |    |    | 3 X       |
+| P28       | properties: single-head                                                                        | X  | X  |    |    | X  |    | 3 X       |
+| P27       | properties: acyclicity                                                                         | X  | X  |    |    | X  |    | 3 X       |
+| P26       | properties: connectedness                                                                      | X  | X  |    |    | X  |    | 3 X       |
+| P25       | dependency graphs                                                                              | X  |    | X  | X  |    |    | 3 X       |
+| P22       | tricky cases: coordination                                                                     | X  |    |    | X  | X  |    | 3 X       |
+| P18       | issues: exocentric vs endocentric constructions                                                | X  |    |    | X  | X  |    | 3 X       |
+| P14       | dependency relations                                                                           | X  |    |    | X  | X  |    | 3 X       |
+| P10       | (Weighted) Constraint Dependency Grammar (WCDG)                                                | X  |    |    | X  | X  |    | 3 X       |
+| P09       | Meaning Text Theory (MTT)                                                                      | X  |    |    | X  | X  |    | 3 X       |
+| P07       | Functional Generative Description (FGD)                                                        | X  |    |    | X  | X  |    | 3 X       |
+| P06       | word grammar (WG)                                                                              | X  |    |    | X  | X  |    | 3 X       |
+| M23       | non-projective dependency parsing: Pseudo-projective parsing                                   | X  |    | X  | X  |    |    | 3 X       |
+| M22       | learning methods: Maximum Entropy modeling (MaxEnt)                                            | X  | X  | X  |    |    |    | 3 X       |
+| M21       | classifier-based / data-driven deterministic parsing                                           | X  | X  |    | X  |    |    | 3 X       |
+| M20       | deterministic parsing approaches: Yamada and Matsumoto's deterministic discriminative approach |    | X  |    | X  | X  |    | 3 X       |
+| M19       | transformation based constraint dependency parsing                                             | X  | X  |    | X  |    |    | 3 X       |
+| M18       | Maruyama's constraint propagation                                                              | X  | X  | X  |    |    |    | 3 X       |
+| M17       | eisner's probability models: recursive generation                                              | X  | X  | X  |    |    |    | 3 X       |
+| M16       | dynamic programming approaches: mcdonand's maximum spanning trees                              | X  | X  | X  |    |    |    | 3 X       |
+| M15       | dynamic programming approaches: bilexical grammar                                              | X  | X  |    |    | X  |    | 3 X       |
+| M14       | dynamic programming approaches: link grammar                                                   | X  | X  |    |    | X  |    | 3 X       |
+| M13       | dependency chart parsing                                                                       | X  | X  | X  |    |    |    | 3 X       |
+| M12       | non-projective dependency parsing                                                              | X  |    | X  | X  |    |    | 3 X       |
+| M01       | data driven approaches for dependency parsing                                                  |    |    |    | X  | X  | X  | 3 X       |
+| E03       | evaluation metrics: precision/recall/f-score                                                   | X  |    | X  | X  |    |    | 3 X       |
+| E02       | evaluation metrics: Attachment score                                                           | X  |    | X  | X  |    |    | 3 X       |
+| E01       | evaluation metrics: Exact match                                                                | X  |    | X  | X  |    |    | 3 X       |
+| D02       | dependency structures definition                                                               | X  |    | X  |    |    | X  | 3 X       |
+| S08       | system: Link Grammar Parser                                                                    | X  |    |    | X  |    |    | 2 X       |
+| S07       | system: Pro3Gres                                                                               | X  |    |    | X  |    |    | 2 X       |
+| S06       | system: CaboCha                                                                                | X  |    |    | X  |    |    | 2 X       |
+| S05       | system: Minipar                                                                                | X  |    |    | X  |    |    | 2 X       |
+| S04       | system: probablistic dependency parser                                                         | X  |    |    | X  |    |    | 2 X       |
+| R05       | METU-Sabanchi Turkish Treebank                                                                 | X  |    |    | X  |    |    | 2 X       |
+| R04       | Floresta sinta(c)tica                                                                          | X  |    |    | X  |    |    | 2 X       |
+| R03       | Danish Dependency Treebank                                                                     | X  |    |    | X  |    |    | 2 X       |
+| R02       | Prague Dependency Treebank                                                                     | X  |    |    | X  |    |    | 2 X       |
+| R01       | Prague Arabic Dependency Treebank                                                              | X  |    |    | X  |    |    | 2 X       |
+| P37       | aspects of problem: expressivity                                                               | X  |    | X  |    |    |    | 2 X       |
+| P36       | aspects of problem: word order                                                                 | X  |    | X  |    |    |    | 2 X       |
+| P35       | aspects of problem: transparency                                                               | X  |    | X  |    |    |    | 2 X       |
+| P34       | free word order                                                                                | X  |    | X  |    |    |    | 2 X       |
+| P19       | head-complement vs head-modifier                                                               |    |    |    | X  | X  |    | 2 X       |
+| P17       | issues: syntactic vs semantic criteria                                                         | X  |    |    |    | X  |    | 2 X       |
+| P15       | mono-stratal vs multi-stratal syntactic representations                                        | X  |    |    |    | X  |    | 2 X       |
+| P12       | Topological/Extensible Dependency Grammar (T/XDG)                                              | X  |    |    |    | X  |    | 2 X       |
+| P11       | Functional Dependency Grammar (FDG)                                                            | X  |    |    |    | X  |    | 2 X       |
+| P08       | Dependency Unification Grammar (DUG)                                                           | X  |    |    |    | X  |    | 2 X       |
+| P05       | hybrid representations                                                                         | X  |    | X  |    |    |    | 2 X       |
+| P04       | phrase structures                                                                              | X  |    | X  |    |    |    | 2 X       |
+| P03       | terminology: regent - subordinate                                                              | X  |    |    |    | X  |    | 2 X       |
+| P02       | terminology: governor - modifier                                                               | X  |    |    |    | X  |    | 2 X       |
+| M37       | multilingual dependency parsing                                                                | X  |    | X  |    |    |    | 2 X       |
+| M36       | non-projective dependency parsing: approximate non-projective parsing                          | X  |    | X  |    |    |    | 2 X       |
+| M35       | non-projective dependency parsing: corrective modeling                                         | X  |    | X  |    |    |    | 2 X       |
+| M34       | deterministic parsing approaches: Yamada's algorithm                                           | X  | X  |    |    |    |    | 2 X       |
+| M33       | deterministic parsing approaches: shift reduce type algorithms                                 | X  |    | X  |    |    |    | 2 X       |
+| M32       | weighted constraint parsing                                                                    | X  | X  |    |    |    |    | 2 X       |
+| M31       | constraint satisfaction approaches: topological dependency grammar                             | X  |    |    | X  |    |    | 2 X       |
+| M30       | eliminative vs constructive parsing                                                            | X  |    |    |    | X  |    | 2 X       |
+| M29       | eisner's probability models: selectional preferences                                           | X  |    | X  |    |    |    | 2 X       |
+| M28       | eisner's probability models: bigram lexical affinities                                         | X  |    | X  |    |    |    | 2 X       |
+| M27       | eisner's probability models                                                                    | X  |    | X  |    |    |    | 2 X       |
+| M26       | eisner's bilexical algorithm complexity O(n^3)                                                 | X  | X  |    |    |    |    | 2 X       |
+| M25       | dynamic programming approaches: earley style parser with left-corner filtering                 | X  |    |    |    | X  |    | 2 X       |
+| M24       | transition based dependency parsing                                                            |    |    |    | X  |    | X  | 2 X       |
+| F06       | features: dependency type                                                                      | X  |    | X  |    |    |    | 2 X       |
+| F05       | features: part of speech                                                                       | X  |    | X  |    |    |    | 2 X       |
+| F04       | features: word form and lemma                                                                  | X  |    | X  |    |    |    | 2 X       |
+| F03       | features: structural context                                                                   | X  |    | X  |    |    |    | 2 X       |
+| F02       | features: linear context                                                                       | X  |    | X  |    |    |    | 2 X       |
+| F01       | features: target tokens                                                                        | X  |    | X  |    |    |    | 2 X       |
+| E04       | evaluation metrics: correct root                                                               | X  |    | X  |    |    |    | 2 X       |
+| D04       | phrase structure grammar definition                                                            |    | X  |    | X  |    |    | 2 X       |
+| D01       | dependency syntax definition                                                                   | X  |    | X  |    |    |    | 2 X       |
+| P32       | probabilistic CFG                                                                              |    |    | X  |    |    |    | X         |
+| P31       | context free depdenency grammar                                                                |    |    |    | X  |    |    | X         |
+| P30       | planarity                                                                                      |    |    |    |    | X  |    | X         |
+| P24       | tricky cases: punctuation                                                                      | X  |    |    |    |    |    | X         |
+| P23       | tricky cases: prepositional phrases                                                            | X  |    |    |    |    |    | X         |
+| P21       | tricky cases: subordinate clauses                                                              | X  |    |    |    |    |    | X         |
+| P20       | tricky cases: complex verb groups                                                              | X  |    |    |    |    |    | X         |
+| P16       | criteria for a syntactic relation between head and dependent                                   | X  |    |    |    |    |    | X         |
+| P13       | Dependency Grammar Logic (DGL)                                                                 |    |    |    |    | X  |    | X         |
+|           | robinson's axioms                                                                              |    |    |    |    |    | X  | X         |
+|           | graph based dependency parsing                                                                 |    |    |    | X  |    |    | X         |
+|           | arc factored models                                                                            |    |    |    | X  |    |    | X         |
+|           | long distance dependencies                                                                     |    |    | X  |    |    |    | X         |
+|           | parsing methods: generative approachw                                                          |    |    | X  |    |    |    | X         |
+|           | projective dependency parsing                                                                  |    |    |    | X  |    |    | X         |
+|           | generic chart parsing                                                                          |    | X  |    |    |    |    | X         |
+|           | dynamic programming approaches: bilexical grammar with discriminative estimation               | X  |    |    |    |    |    | X         |
+|           | weighted bilexical grammar (WBG)                                                               |    |    |    |    | X  |    | X         |
+|           | online learning                                                                                | X  |    |    |    |    |    | X         |
+|           | MIRA                                                                                           | X  |    |    |    |    |    | X         |
+|           | constraint satisfaction approaches: constraint grammar                                         | X  |    |    |    |    |    | X         |
+|           | constraint satisfaction approaches: constraint dependency grammar                              | X  |    |    |    |    |    | X         |
+|           | constraint satisfaction approaches: functional dependency grammar                              | X  |    |    |    |    |    | X         |
+|           | constraint satisfaction approaches: extensible dependency grammar                              | X  |    |    |    |    |    | X         |
+|           | constraint satisfaction approaches: constraint dependency grammar with defeasible constraints  | X  |    |    |    |    |    | X         |
+|           | NEGRA treebank for German                                                                      | X  |    |    |    |    |    | X         |
+|           | constituent based parsing                                                                      | X  |    |    |    |    |    | X         |
+|           | inductive dependency parsing                                                                   |    |    |    |    | X  |    | X         |
+|           | features: distance                                                                             | X  |    |    |    |    |    | X         |
+|           | evaluation data: Penn Treebank converted to dependency graph                                   | X  |    |    |    |    |    | X         |
+|           | evaluation metrics: unlabeled accuracy per word                                                | X  |    |    |    |    |    | X         |
+|           | evaluation metrics: unlabeled accuracy per sentence                                            | X  |    |    |    |    |    | X         |
+|           | evaluation metrics: labeled accuracy per word                                                  | X  |    |    |    |    |    | X         |
+|           | second order non-projective parsing                                                            | X  |    |    |    |    |    | X         |
+|           | Chu-Liu-Edmonds spanning tree algorithm for non-projective dependency parsing                  |    |    |    | X  |    |    | X         |
+|           | aspects of problem: complexity                                                                 | X  |    |    |    |    |    | X         |
+|           | supertagging                                                                                   |    |    |    |    | X  |    | X         |
+|           | system: k-best Maximum Spanning Tree Dependency Parser                                         |    |    |    | X  |    |    | X         |
+|           | system: Vine Parser                                                                            |    |    |    | X  |    |    | X         |
+|           | system: ISBN Dependency Parser                                                                 |    |    |    | X  |    |    | X         |
+|           | system: Stanford parser                                                                        |    | X  |    |    |    |    | X         |
+|           | system: WCDG Parser                                                                            |    |    |    | X  |    |    | X         |
+|           | Slovene Depenedency Treebank                                                                   | X  |    |    |    |    |    | X         |
+|           | Lin's conversion from constituents to dependencies                                             | X  |    |    |    |    |    | X         |
+|           | global constraints                                                                             | X  |    |    |    |    |    | X         |
+|           | post-processing of projective approximations                                                   | X  |    |    |    |    |    | X         |
+|           | hybrid approaches for dependency parsing                                                       | X  |    |    |    |    |    | X         |
+|-----------+------------------------------------------------------------------------------------------------+----+----+----+----+----+----+-----------|
+  #+TBLFM: $9=vsum($3..$8)
+

@@ -1,0 +1,4 @@
+This human evaluation set is created for experiments presented in paper titiled "KeyphraseDS: Automatic Generation of Survey by Exploiting Keyphrase Information.".
+This dataset is created by first randomly mix 500-words summaries generated through MEAD, LexRank, and our methods.
+Then 5 judges with natural language proceesing background, are asked respectively to pick 10 informative sentences, which can best convey the corresponding topic, from the mixed summaries.
+The picked sentences constitute the golden representative sentence collection, which can be utlized to evaluate the generated summary's quality.

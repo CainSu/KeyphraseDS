@@ -1,0 +1,14 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: magnini.pdf ::: Bernardo Magnini ::: 2005 ::: Open Domain Question Answering: Techniques, Resources and Systems ::: RANLP
+T2 ::: t2.pdf ::: Jimmy Lin; Boris Katz ::: 2003 ::: Question Answering Techniques for the World Wide Web ::: EACL
+T3 ::: qa-drago.pdf ::: Dragomir R. Radev ::: NA ::: Question Answering ::: Class Lecture
+
+# Surveys
+S1 ::: 01488857.pdf ::: Andrea Andrenucci; Eriks Sneiders ::: 2005 ::: Automated Question Answering: Review of the Main Approaches ::: ICITA
+S2 ::: pxc3882030.pdf ::: Poonam Gupta; Vishal Gupta ::: 2012 ::: A Survey of Text Question Answering Techniques ::: IJCA
+S3 ::: 886-2189-1-PB.pdf ::: Ali Mohamed Nabil Allam; Mohamed Hassan Haggag ::: 2012 ::: IJRRIS
+S4 ::: Prager_FnTIR2007.pdf ::: John Prager ::: 2007 ::: Open-Domain Question-Answering ::: NOW surveys
+S5 ::: greenwood.pdf ::: Mark A. Greenwood ::: 2005 ::: Open-Domain Question Answering ::: NA
+S6 ::: jnle-qa.pdf ::: L. Hirschman; R. Gaizauskas ::: 2001 ::: Natural language question answering: the view from here ::: Natural Language Engineering

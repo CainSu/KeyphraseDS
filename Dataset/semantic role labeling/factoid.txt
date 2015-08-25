@@ -1,0 +1,68 @@
+R02	6	Framenet
+R01	6	Propbank
+F03	6	Feature: Voice
+F02	6	Feature: Parse tree path
+F01	6	Feature: Phrase type
+V01	5	CoNLL
+F06	5	Feature: governing category
+F05	5	Feature: Head Word
+F04	5	Feature: Position
+E01	5	Evaluation metrics: Precision, Recall, F-score
+R04	4	Verbnet
+R03	4	Chinese Propbank
+P03	4	subtask: joint scoring
+P02	4	semantic roles: patient
+P01	4	semantic roles: agent
+O01	4	motivation: syntactic variations
+M03	4	impact of syntactic processing in SRL
+M02	4	SRL using parse trees
+M01	4	joint system based on reranking
+F07	4	Feature: subcategorization
+D01	4	SRL definition
+A01	4	applications: information extraction
+V02	3	Senseval
+R07	3	Wordnet
+R06	3	SALSA corpus
+R05	3	Nombank
+P08	3	Cross / Multi lingual SRL
+P07	3	subtask: local scoring
+P06	3	subtask: select / filter argument candidates / annotations
+P05	3	semantic roles: source
+P04	3	semantic roles: beneficiary
+M09	3	SRL using CCG parser
+M08	3	joint scoring using ILP
+M07	3	joint models
+M06	3	selectional preferences / restrictions
+M05	3	machine learning models: TreeCRFs
+M04	3	machine learning models: CRFs
+E02	3	Classification Accuracy
+A04	3	applications: machine translation
+A03	3	applications: summarization
+A02	3	applications: question answering
+V03	2	Semeval
+S01	2	Absity
+R10	2	SemLink
+R09	2	Prague Dependency Treebank
+R08	2	Korean Propbank
+P17	2	argument identification and classification
+P16	2	frame semantics
+P15	2	subcategorization frame / patterns
+P14	2	related task: predicting case markers
+P13	2	related task: penn treebank function tagging
+P12	2	related task: deep semantic parsing
+P11	2	related task: semantic parsing for speech dialogues
+P10	2	semantic roles: location
+P09	2	semantic roles: instrument
+O02	2	alternate name: shallow semantic parsing
+M20	2	unsupervised approaches to SRL
+M19	2	SRL as sequential labeling
+M18	2	semi supervised approaches to SRL
+M17	2	SRL based on dependency parser
+M16	2	machine learning models: decision trees
+M15	2	machine learning models: AdaBoost
+M14	2	machine learning models: SNoW
+M13	2	machine learning models: SVM
+M12	2	combination of systems and annotations
+M11	2	machine learning models: back off lattice based relative frequency
+M10	2	local models
+A05	2	applications: textual entailment

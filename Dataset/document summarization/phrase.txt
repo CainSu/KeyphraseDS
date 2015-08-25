@@ -1,0 +1,76 @@
+single-document summarization
+particular text
+cue words
+salient sentences
+baseline summaries
+cue phrases
+keyword extraction
+previous work
+sentence level
+information fusion
+term clustering
+recent study
+summary evaluation
+source text
+other hand
+lexical chains
+multi-document summarization system
+important content
+summarization evaluation
+human evaluation
+document summarization
+TextRank system
+important sentences
+term frequency
+machine translation
+sentence compression
+automatic sentence extraction
+text summarization
+sentence position
+system development
+cluster centroids
+question answering
+human performance
+human judges
+semantic representation
+summary length
+content selection
+same information
+graph algorithms
+important information
+multi-document summarization
+syntactic features
+ROUGE score
+intrinsic evaluation
+document sentence
+stigma words
+ROUGE scores
+news articles
+content words
+positional indicators
+extractive summarization
+sentence extraction
+automatic summarization evaluation
+sentence fusion
+inter-sentence features
+reference summaries
+automatic summarization
+summary content
+single document summarization
+common subsequence
+statistical and linguistic features
+relative utility
+first sentence
+scientific article summarization
+discourse structure
+human judgment
+summarization systems
+sentence ranking
+automatic evaluation
+topic signature
+multi document summarization
+model summaries
+eigenvector centrality
+compute sentence importance
+human evaluations
+machine translation evaluation

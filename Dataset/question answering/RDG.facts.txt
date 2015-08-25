@@ -1,0 +1,152 @@
+* Factoid Sources
+** Tutorials
+     |----+------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                           |
+     |----+------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/magnini.pdf  |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/t2.pdf       |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/qa-drago.pdf |
+     |----+------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+-----------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                |
+   |----+-----------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/01488857.pdf      |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/pxc3882030.pdf    |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/qa/886-2189-1-PB.pdf |
+   |----+-----------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+----------------------------------------------------------------+----+----+----+----+----+----+---------|
+| Factoid # | Factoid                                                        | T1 | T2 | T3 | S1 | S2 | S3 | # Total |
+|-----------+----------------------------------------------------------------+----+----+----+----+----+----+---------|
+| M13       | answer extraction                                              | X  | X  | X  | X  | X  | X  | 6 X     |
+| M12       | question classification                                        | X  | X  | X  | X  | X  | X  | 6 X     |
+| V01       | TREC QA track                                                  | X  | X  | X  | X  |    | X  | 5 X     |
+| P02       | question classification according to answer type and focus     | X  | X  |    | X  | X  | X  | 5 X     |
+| P01       | information retrieval                                          | X  | X  |    | X  | X  | X  | 5 X     |
+| M11       | document retrieval                                             | X  | X  | X  | X  |    | X  | 5 X     |
+| M10       | answer selection / identification                              | X  | X  | X  |    | X  | X  | 5 X     |
+| D01       | question answering definition                                  | X  | X  |    | X  | X  | X  | 5 X     |
+| S02       | LUNAR                                                          | X  | X  |    |    | X  | X  | 4 X     |
+| S01       | BASEBALL                                                       | X  | X  |    |    | X  | X  | 4 X     |
+| P03       | information extraction                                         | X  | X  |    | X  | X  |    | 4 X     |
+| M09       | passage retrival                                               | X  | X  |    | X  | X  |    | 4 X     |
+| M08       | answer validation                                              | X  | X  |    |    | X  | X  | 4 X     |
+| V02       | NIST                                                           | X  | X  |    |    |    | X  | 3 X     |
+| P12       | closed / restricted domain question answering                  | X  |    |    |    | X  | X  | 3 X     |
+| P11       | open domain question answering                                 | X  |    |    |    | X  | X  | 3 X     |
+| P08       | NLP interfaces to databases                                    | X  | X  |    | X  |    |    | 3 X     |
+| P07       | question classification according to question speech act       | X  | X  | X  |    |    |    | 3 X     |
+| P06       | emphasis on recall                                             | X  |    |    |    | X  | X  | 3 X     |
+| P05       | factoid question answering                                     |    | X  |    |    | X  | X  | 3 X     |
+| P04       | why question answering                                         | X  | X  |    |    | X  |    | 3 X     |
+| M22       | Statistical / machine learning approaches for QA components    |    | X  |    | X  |    | X  | 3 X     |
+| M07       | question processing                                            | X  | X  |    |    | X  |    | 3 X     |
+| M06       | pattern / template based question answering                    | X  | X  |    | X  |    |    | 3 X     |
+| M05       | entity recognition during candidate answer document analysis   | X  | X  |    |    | X  |    | 3 X     |
+| F01       | web data redundancy                                            | X  | X  |    | X  |    |    | 3 X     |
+| E02       | Confidence-Weighted SCore (CWS) as evaluation metric           | X  | X  |    |    |    | X  | 3 X     |
+| E01       | Mean Reciprocal Rank (MRR) as evaluation metric                | X  | X  |    |    |    | X  | 3 X     |
+| V05       | CLEF multilingual QA track                                     | X  |    |    |    |    | X  | 2 X     |
+| V04       | DARPA                                                          | X  | X  |    |    |    |    | 2 X     |
+| V03       | ARDA                                                           | X  | X  |    |    |    |    | 2 X     |
+| S09       | START                                                          |    | X  |    | X  |    |    | 2 X     |
+| S08       | FALCON                                                         |    | X  |    |    |    | X  | 2 X     |
+| S07       | MULDER                                                         |    | X  |    | X  |    |    | 2 X     |
+| S06       | QUALM                                                          |    | X  |    |    |    | X  | 2 X     |
+| S05       | LIFER                                                          |    | X  |    |    |    | X  | 2 X     |
+| S04       | LaSIE                                                          |    |    |    | X  |    | X  | 2 X     |
+| S03       | NSIR                                                           |    | X  |    |    |    | X  | 2 X     |
+| P13       | cross language question answering                              | X  |    |    |    |    | X  | 2 X     |
+| P10       | reading / story comprehension                                  | X  |    |    | X  |    |    | 2 X     |
+| P09       | dialog based interaction                                       | X  |    |    | X  |    |    | 2 X     |
+| O01       | semantic web                                                   |    | X  |    | X  |    |    | 2 X     |
+| M20       | answer reranking                                               |    | X  |    |    | X  |    | 2 X     |
+| M19       | wordnet for answer validation                                  | X  |    |    |    |    | X  | 2 X     |
+| M18       | machine learning approach for question classification          |    | X  |    |    |    | X  | 2 X     |
+| M17       | entity classification                                          |    | X  |    |    | X  |    | 2 X     |
+| M16       | standard radix sort algorithm for paragraph ordering           |    |    |    |    | X  | X  | 2 X     |
+| M15       | parsing for question analysis                                  | X  | X  |    |    |    |    | 2 X     |
+| M14       | question / query reformulation                                 |    |    |    |    | X  | X  | 2 X     |
+| M04       | web based approach for question answering                      | X  |    |    |    | X  |    | 2 X     |
+| M03       | NLP based question answering                                   |    |    |    | X  | X  |    | 2 X     |
+| M02       | acquisition of answer patterns                                 | X  | X  |    |    |    |    | 2 X     |
+| M01       | query modulation                                               |    | X  | X  |    |    |    | 2 X     |
+| P17       | text classification                                            |    |    |    |    | X  |    | X       |
+| P16       | summarization                                                  |    |    |    |    | X  |    | X       |
+| P15       | knowledge annotation                                           |    | X  |    |    |    |    | X       |
+| P14       | knowledge mining                                               |    | X  |    |    |    |    | X       |
+| M21       | logic based answer extraction                                  |    | X  |    |    |    |    | X       |
+|           | domain independent QA                                          | X  |    |    |    |    |    | X       |
+|           | domain specific QA                                             | X  |    |    |    |    |    | X       |
+|           | multi modal QA                                                 | X  |    |    |    |    |    | X       |
+|           | Ripper                                                         |    |    | X  |    |    |    | X       |
+|           | answer construction by extraction                              | X  |    |    |    |    |    | X       |
+|           | answer construction by generation                              | X  |    |    |    |    |    | X       |
+|           | Probabilistic Phrase Reranking                                 |    |    |    |    |    | X  | X       |
+|           | Definitional Question Answering                                |    |    |    |    |    | X  | X       |
+|           | LASSO                                                          |    |    |    |    |    | X  | X       |
+|           | SYNTHEX                                                        |    |    |    |    |    | X  | X       |
+|           | PLANES                                                         |    |    |    |    |    | X  | X       |
+|           | CIRCUS                                                         |    |    |    | X  |    |    | X       |
+|           | FAQFinder                                                      |    |    |    | X  |    |    | X       |
+|           | Blocks world                                                   |    | X  |    |    |    |    | X       |
+|           | Ionaut                                                         |    | X  |    |    |    |    | X       |
+|           | AskMSR                                                         |    | X  |    |    |    |    | X       |
+|           | InsightSoft-M                                                  |    | X  |    |    |    |    | X       |
+|           | MultiText                                                      |    | X  |    |    |    |    | X       |
+|           | Shapaqa                                                        |    | X  |    |    |    |    | X       |
+|           | Aranea                                                         |    | X  |    |    |    |    | X       |
+|           | TextMap                                                        |    | X  |    |    |    |    | X       |
+|           | LAMP                                                           |    | X  |    |    |    |    | X       |
+|           | PRIS                                                           |    | X  |    |    |    |    | X       |
+|           | AnswerBus                                                      |    | X  |    |    |    |    | X       |
+|           | UNIX Consulant                                                 |    | X  |    |    |    |    | X       |
+|           | Cymfony                                                        |    | X  |    |    |    |    | X       |
+|           | TEAM                                                           | X  |    |    |    |    |    | X       |
+|           | ALFRESCO                                                       | X  |    |    |    |    |    | X       |
+|           | SMART                                                          |    |    |    | X  |    |    | X       |
+|           | answer assesment                                               | X  |    |    |    |    |    | X       |
+|           | single answer questions                                        | X  |    |    |    |    |    | X       |
+|           | multiple answer questions                                      | X  |    |    |    |    |    | X       |
+|           | Precision, Recall, F-measure as evaluation metric              |    |    |    |    |    | X  | X       |
+|           | total reciprocal document rank (TRDR) as evaluation metric     |    |    | X  |    |    |    | X       |
+|           | Mean Reciprocal Document Rank (MRDR) as evaluation metric      |    |    | X  |    |    |    | X       |
+|           | Mean Reciprocal Answer Rank (MRAR) as evaluation metric        |    |    | X  |    |    |    | X       |
+|           | knowledge based approach for question answering                | X  |    |    |    |    |    | X       |
+|           | syntactic answer patterns                                      | X  |    |    |    |    |    | X       |
+|           | question analysis                                              | X  |    |    |    |    |    | X       |
+|           | tokenization and tagging during question analysis              | X  |    |    |    |    |    | X       |
+|           | IBM's language access                                          |    |    |    | X  |    |    | X       |
+|           | Symantec's Q&A                                                 |    |    |    | X  |    |    | X       |
+|           | Loqui                                                          |    |    |    | X  |    |    | X       |
+|           | keyword extraction during question analysis                    | X  |    |    |    |    |    | X       |
+|           | word sense disambiguation during question analysis             | X  |    |    |    |    |    | X       |
+|           | expansions during question analysis                            | X  |    |    |    |    |    | X       |
+|           | document collection pre processing                             | X  |    |    |    |    |    | X       |
+|           | document filtering                                             |    |    |    |    |    | X  | X       |
+|           | paragraph filtering                                            |    |    |    |    |    | X  | X       |
+|           | paragraph ranking                                              |    |    |    |    |    | X  | X       |
+|           | sentence ranking                                               |    |    | X  |    |    |    | X       |
+|           | phrase ranking                                                 |    |    | X  |    |    |    | X       |
+|           | POS signatures                                                 |    |    | X  |    |    |    | X       |
+|           | passage ranking                                                |    |    |    | X  |    |    | X       |
+|           | candidate answer document analysis                             | X  |    |    |    |    |    | X       |
+|           | passage text tagging during candidate answer document analysis | X  |    |    |    |    |    | X       |
+|           | rule based question answering                                  |    |    |    |    | X  |    | X       |
+|           | rule based question classification                             |    |    |    |    |    | X  | X       |
+|           | web based answer validation                                    | X  |    |    |    |    |    | X       |
+|           | pattern based answer validation                                | X  |    |    |    |    |    | X       |
+|           | quantitative answer validation                                 | X  |    |    |    |    |    | X       |
+|           | logic based answer validation                                  |    | X  |    |    |    |    | X       |
+|           | answer validity score                                          | X  |    |    |    |    |    | X       |
+|           | PMI for answer validity score                                  | X  |    |    |    |    |    | X       |
+|           | Asymmetric Conditional Probablity for answer validity score    | X  |    |    |    |    |    | X       |
+|           | NII Test Collection for IR Systems                             |    |    |    |    |    | X  | X       |
+|           | answer projection                                              |    | X  |    |    |    |    | X       |
+|           | DIOGENE                                                        |    | X  |    |    |    |    | X       |
+|-----------+----------------------------------------------------------------+----+----+----+----+----+----+---------|
+
+  #+TBLFM: $9=vsum($3..$8)

@@ -1,0 +1,11 @@
+logic form
+logic forms
+answer validation
+comprehension task
+lexical patterns
+query expansion
+parse trees
+information sources
+question answering
+statistical machine translation
+semantic roles

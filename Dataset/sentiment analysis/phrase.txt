@@ -1,0 +1,34 @@
+financial news text
+Previous work
+mutual information
+subjectivity lexicon
+negation modeling
+manual annotation
+subjective instances
+objective sentences
+polarity classification
+sentiment classification
+previous work
+future work
+sentence level
+individual sentiments
+Sentiment analysis
+movie reviews
+product reviews
+document level
+positive or negative polarity
+contextual polarity
+semantic orientation
+sentiment extraction
+sentiment analysis
+subjective portions
+phrase level
+subjective sentences
+lexical graphs
+polarity lexicons
+negative polarity
+polarity classifier
+Much work
+seed words
+opinion mining
+review classification

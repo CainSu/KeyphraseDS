@@ -1,0 +1,104 @@
+collocational clues
+decision lists
+Previous work
+second language
+sense-tagged corpus
+simulated annealing
+ambiguous word
+inventory report
+state-of-the-art machine learning
+example Yarowsky
+recent proposals
+large sense-tagged data
+syntactic relation
+Open Mind Word Expert annotation exercise
+parallel corpora
+recent work
+summation text
+sense tagging
+accent restoration
+Brown corpus
+previous work
+Nave Bayes
+DSO collection
+position information
+coarse sense distinction
+supervised learning algorithms
+Brown Corpus
+Longman Dictionary
+subject codes
+sense disambiguation
+other hand
+lexical disambiguation
+Zernik
+English all-words data
+probabilistic algorithms
+WORDNET senses
+improved disambiguation accuracy
+Based Learning
+related work
+machine translation
+WSD program
+sense definitions
+average number
+semi-supervised sense disambiguation
+Naive-Bayes algorithm
+second group
+seed data
+sense-tagged corpora
+polysemous words
+collocations verb-object
+DSO corpus
+all-words test
+exemplar-based classifier
+hand-tagged corpus
+bilingual corpora
+such as
+many different sources
+related word classes
+translation equivalents
+all-words task
+syntactic information
+local collocations
+word senses
+other language
+supervised learning approach
+parallel texts
+all-words tasks
+monolingual corpora
+topical and local features
+Yarowskys Words We
+knowledge base
+knowledge sources
+entropy framework
+various knowledge
+Previous experiments
+frequent sense
+different knowledge
+linguistic knowledge
+only fine-grained sense
+same sense
+Many different learning approaches
+supervised systems
+syntactic relations
+past work
+word sense disambiguation
+relative contribution
+annotated corpus
+hand-tagged data
+refined senses
+feature selection
+minimal information
+training materials
+learning algorithms
+training examples
+statistical and machine learning
+English-Chinese translation
+Nearest Neighbor
+training data
+easy process
+verb sense
+Decision List
+disambiguate word senses
+SEMCOR corpus
+supervised WSD systems

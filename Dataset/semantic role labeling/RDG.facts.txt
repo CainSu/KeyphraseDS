@@ -1,0 +1,150 @@
+* Factoid Sources
+** Tutorials
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                                                  |
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/SRL-tutorial-ACL-IJCNLP-2009.pdf   |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/SRL-Tutorial-post-HLT-NAACL-06.pdf |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/srl.pdf                            |
+     | T4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/semantic-role-labeling.pdf         |
+     |----+-----------------------------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+-----------------------------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                                              |
+   |----+-----------------------------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/SRL_DEP-Literature%20Survey-2012-Janardhan.pdf |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/coli.2008.34.2.145.pdf                         |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/srl/morgan_clay_srl.pdf                            |
+   |----+-----------------------------------------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+--------------------------------------------------------------------+----+----+----+----+----+----+---------|
+| Factoid # | Factoid                                                            | T1 | T2 | T3 | S1 | S3 | S2 | # Total |
+|-----------+--------------------------------------------------------------------+----+----+----+----+----+----+---------|
+| R02       | Framenet                                                           | X  | X  | X  | X  | X  | X  | 6 X     |
+| R01       | Propbank                                                           | X  | X  | X  | X  | X  | X  | 6 X     |
+| F03       | Feature: Voice                                                     | X  | X  | X  | X  | X  | X  | 6 X     |
+| F02       | Feature: Parse tree path                                           | X  | X  | X  | X  | X  | X  | 6 X     |
+| F01       | Feature: Phrase type                                               | X  | X  | X  | X  | X  | X  | 6 X     |
+| V01       | CoNLL                                                              | X  | X  | X  |    | X  | X  | 5 X     |
+| F06       | Feature: governing category                                        | X  | X  |    | X  | X  | X  | 5 X     |
+| F05       | Feature: Head Word                                                 | X  | X  | X  |    | X  | X  | 5 X     |
+| F04       | Feature: Position                                                  | X  | X  | X  | X  | X  |    | 5 X     |
+| E01       | Evaluation metrics: Precision, Recall, F-score                     | X  | X  | X  |    | X  | X  | 5 X     |
+| R04       | Verbnet                                                            | X  |    |    | X  | X  | X  | 4 X     |
+| R03       | Chinese Propbank                                                   | X  | X  |    |    | X  | X  | 4 X     |
+| P03       | subtask: joint scoring                                             | X  | X  |    |    | X  | X  | 4 X     |
+| P02       | semantic roles: patient                                            | X  |    | X  |    | X  | X  | 4 X     |
+| P01       | semantic roles: agent                                              | X  |    | X  |    | X  | X  | 4 X     |
+| O01       | motivation: syntactic variations                                   | X  | X  | X  |    | X  |    | 4 X     |
+| M03       | impact of syntactic processing in SRL                              | X  | X  |    |    | X  | X  | 4 X     |
+| M02       | SRL using parse trees                                              | X  | X  | X  |    | X  |    | 4 X     |
+| M01       | joint system based on reranking                                    | X  | X  |    |    | X  | X  | 4 X     |
+| F07       | Feature: subcategorization                                         | X  | X  |    |    | X  | X  | 4 X     |
+| D01       | SRL definition                                                     | X  |    | X  | X  |    | X  | 4 X     |
+| A01       | applications: information extraction                               | X  | X  | X  |    |    | X  | 4 X     |
+| V02       | Senseval                                                           | X  | X  |    |    |    | X  | 3 X     |
+| R07       | Wordnet                                                            |    | X  | X  | X  |    |    | 3 X     |
+| R06       | SALSA corpus                                                       | X  |    | X  |    | X  |    | 3 X     |
+| R05       | Nombank                                                            | X  | X  |    |    |    | X  | 3 X     |
+| P08       | Cross / Multi lingual SRL                                          | X  |    |    |    | X  | X  | 3 X     |
+| P07       | subtask: local scoring                                             | X  | X  |    |    |    | X  | 3 X     |
+| P06       | subtask: select / filter argument candidates / annotations         | X  | X  |    |    |    | X  | 3 X     |
+| P05       | semantic roles: source                                             | X  |    | X  |    | X  |    | 3 X     |
+| P04       | semantic roles: beneficiary                                        | X  |    | X  |    | X  |    | 3 X     |
+| M09       | SRL using CCG parser                                               | X  | X  |    |    | X  |    | 3 X     |
+| M08       | joint scoring using ILP                                            | X  | X  |    |    | X  |    | 3 X     |
+| M07       | joint models                                                       | X  | X  |    |    |    | X  | 3 X     |
+| M06       | selectional preferences / restrictions                             | X  |    | X  |    |    | X  | 3 X     |
+| M05       | machine learning models: TreeCRFs                                  | X  | X  | X  |    |    |    | 3 X     |
+| M04       | machine learning models: CRFs                                      |    | X  | X  |    |    | X  | 3 X     |
+| E02       | Classification Accuracy                                            | X  | X  |    |    |    | X  | 3 X     |
+| A04       | applications: machine translation                                  | X  | X  |    |    |    | X  | 3 X     |
+| A03       | applications: summarization                                        | X  | X  |    |    |    | X  | 3 X     |
+| A02       | applications: question answering                                   | X  | X  |    |    |    | X  | 3 X     |
+| V03       | Semeval                                                            | X  |    |    |    |    | X  | 2 X     |
+| S01       | Absity                                                             | X  | X  |    |    |    |    | 2 X     |
+| R10       | SemLink                                                            | X  |    |    |    | X  |    | 2 X     |
+| R09       | Prague Dependency Treebank                                         | X  |    |    |    | X  |    | 2 X     |
+| R08       | Korean Propbank                                                    | X  |    |    |    | X  |    | 2 X     |
+| P17       | argument identification and classification                         |    |    |    |    | X  | X  | 2 X     |
+| P16       | frame semantics                                                    | X  |    |    |    | X  |    | 2 X     |
+| P15       | subcategorization frame / patterns                                 | X  |    |    |    | X  |    | 2 X     |
+| P14       | related task: predicting case markers                              | X  | X  |    |    |    |    | 2 X     |
+| P13       | related task: penn treebank function tagging                       | X  | X  |    |    |    |    | 2 X     |
+| P12       | related task: deep semantic parsing                                | X  | X  |    |    |    |    | 2 X     |
+| P11       | related task: semantic parsing for speech dialogues                | X  | X  |    |    |    |    | 2 X     |
+| P10       | semantic roles: location                                           |    |    |    |    | X  | X  | 2 X     |
+| P09       | semantic roles: instrument                                         |    |    | X  |    | X  |    | 2 X     |
+| O02       | alternate name: shallow semantic parsing                           | X  |    | X  |    |    |    | 2 X     |
+| M20       | unsupervised approaches to SRL                                     | X  |    |    |    | X  |    | 2 X     |
+| M19       | SRL as sequential labeling                                         | X  |    | X  |    |    |    | 2 X     |
+| M18       | semi supervised approaches to SRL                                  |    | X  |    |    | X  |    | 2 X     |
+| M17       | SRL based on dependency parser                                     | X  |    |    |    | X  |    | 2 X     |
+| M16       | machine learning models: decision trees                            |    | X  | X  |    |    |    | 2 X     |
+| M15       | machine learning models: AdaBoost                                  |    | X  | X  |    |    |    | 2 X     |
+| M14       | machine learning models: SNoW                                      |    | X  | X  |    |    |    | 2 X     |
+| M13       | machine learning models: SVM                                       |    | X  | X  |    |    |    | 2 X     |
+| M12       | combination of systems and annotations                             |    |    |    |    | X  | X  | 2 X     |
+| M11       | machine learning models: back off lattice based relative frequency |    | X  |    |    | X  |    | 2 X     |
+| M10       | local models                                                       | X  | X  |    |    |    |    | 2 X     |
+| A05       | applications: textual entailment                                   | X  | X  |    |    |    |    | 2 X     |
+|           | structural view                                                    | X  |    |    |    |    |    | X       |
+|           | applications: coreference resolution                               | X  |    |    |    |    |    | X       |
+|           | applications: modeling early language acquisition                  | X  |    |    |    |    |    | X       |
+|           | applications: pictorial communication systems                      | X  |    |    |    |    |    | X       |
+|           | alternate name: case role analysis                                 |    |    | X  |    |    |    | X       |
+|           | alternate name: thematic analysis                                  |    |    | X  |    |    |    | X       |
+|           | semantic roles                                                     |    |    |    |    | X  |    | X       |
+|           | semantic roles: destination                                        |    |    | X  |    |    |    | X       |
+|           | semantic roles: theme                                              |    |    |    |    | X  |    | X       |
+|           | semantic roles: experiencer                                        |    |    |    |    | X  |    | X       |
+|           | semantic roles: goal                                               |    |    |    |    | X  |    | X       |
+|           | verb clustering                                                    | X  |    |    |    |    |    | X       |
+|           | sequence tagging with classifiers                                  |    |    |    |    |    | X  | X       |
+|           | machine learning models: Maximum entropy                           |    |    | X  |    |    |    | X       |
+|           | machine learning models: Log Linear models                         |    | X  |    |    |    |    | X       |
+|           | machine learning models: TBL                                       |    | X  |    |    |    |    | X       |
+|           | machine learning models: Nearest Neigbors                          |    |    | X  |    |    |    | X       |
+|           | SRL using HMM's                                                    |    |    | X  |    |    |    | X       |
+|           | classification of semantic relations                               | X  |    |    |    |    |    | X       |
+|           | semantic classification of prepositions                            | X  |    |    |    |    |    | X       |
+|           | Grammatical and Logical Representation Framework (GLARF)           | X  |    |    |    |    |    | X       |
+|           | syntax based approach to semantic roles                            | X  |    |    |    |    |    | X       |
+|           | situation based approach to semantic roles                         | X  |    |    |    |    |    | X       |
+|           | Japanese Framenet                                                  |    |    |    |    | X  |    | X       |
+|           | Spanish Framenet                                                   |    |    |    |    | X  |    | X       |
+|           | AnCora                                                             | X  |    |    |    |    |    | X       |
+|           | Penn Arabic Treebank                                               | X  |    |    |    |    |    | X       |
+|           | Arabic Propbank                                                    |    |    |    |    | X  |    | X       |
+|           | OntoNOtes                                                          | X  |    |    |    |    |    | X       |
+|           | ASSERT (Automatic Statistical SEmantic Role Tagger)                | X  |    |    |    |    |    | X       |
+|           | UIUC system                                                        | X  |    |    |    |    |    | X       |
+|           | SwiRL                                                              | X  |    |    |    |    |    | X       |
+|           | Shalmaneser                                                        | X  |    |    |    |    |    | X       |
+|           | SRL using LTAG parser                                              |    |    |    |    | X  |    | X       |
+|           | SRL usign HPSG parser with handcrafted grammar                     | X  |    |    |    |    |    | X       |
+|           | semantic parsing                                                   | X  |    |    |    |    |    | X       |
+|           | joint scoring using Viterbi search                                 |    |    |    |    | X  |    | X       |
+|           | element boundary identification                                    |    |    |    | X  |    |    | X       |
+|           | Feature: argument set                                              |    |    |    |    | X  |    | X       |
+|           | kernel approach                                                    | X  |    |    |    |    |    | X       |
+|           | grammar driven convolution tree kernel                             | X  |    |    |    |    |    | X       |
+|           | Feature: content word                                              |    |    |    |    |    | X  | X       |
+|           | Feature: syntactic frame                                           |    |    |    |    |    | X  | X       |
+|           | linearization of tree kernel functions                             | X  |    |    |    |    |    | X       |
+|           | SRL using Markov Logic                                             | X  |    |    |    |    |    | X       |
+|           | Cross lingual semantic role annotation projection                  |    |    |    |    | X  |    | X       |
+|           | Semantic role alignment                                            |    |    |    |    | X  |    | X       |
+|           | Language independent semantic role labeling                        |    |    |    |    | X  |    | X       |
+|           | Role Classification                                                | X  |    |    |    |    |    | X       |
+|           | Domain dependence                                                  | X  |    |    |    |    |    | X       |
+|           | Link Parser / Link grammar                                         |    |    |    | X  |    |    | X       |
+|           | syntactic and semantic dependencies                                | X  |    |    |    |    |    | X       |
+|           | Eisner's First ORder Dependency Parsing Algorithm                  | X  |    |    |    |    |    | X       |
+|           | System: SQUASH                                                     |    | X  |    |    |    |    | X       |
+|-----------+--------------------------------------------------------------------+----+----+----+----+----+----+---------|
+
+
+  #+TBLFM: $9=vsum($3..$8)

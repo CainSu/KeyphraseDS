@@ -1,0 +1,14 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: emnlp11.pdf ::: Philipp Koehn ::: 2008 ::: Word Sense Disambiguation ::: EMNLP
+T2 ::: WSD.pdf ::: Diana McCarthy ::: 2011 ::: Word Sense Disambiguation ::: NA
+T3 ::: new3.pdf ::: Rada Mihalcea ::: 2005 ::: Advances in Word Sense Disambiguation ::: AAAI
+T4 ::: Lecture13.pdf ::: Sanda Harabagiu ::: 2011 ::: Word Sense Disambiguation ::: Class Lecture
+
+# Surveys
+S1 ::: acl_wiki_survey_wsd.txt ::: NA ::: 2012 ::: Word Sense Disambiguation ::: NA
+S2 ::: wsdbook-2006-ch1.pdf ::: Eneko Agirre; Philip Edmonds ::: 2006 ::: Word sense disambiguation ::: Springer
+S3 ::: wsd_survey_2005.pdf ::: Xiaohua Zhou; Hyoil Han ::: 2005 ::: Survey of Word Sense Disambiguation Approaches ::: FLAIRS
+S4 ::: wsd_survey_navigli_2009.pdf ::: Roberto Navigli ::: 2009 ::: Word Sense Disambiguation: A Survey ::: ACM Computing Surveys
+S5 ::: 1998wsd.pdf ::: Nancy Ide; Jean Véronis ::: 1998 ::: Word Sense Disambiguation: The State of the Art ::: Computational Linguistics

@@ -1,0 +1,11 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: Boullosa.pdf ::: Beto Boullosa ::: NA ::: Named Entity Recognition ::: NA
+T2 ::: diana-fb.pdf ::: NA ::: NA ::: Named Entity Recognition ::: NA
+T3 ::: 14-named-entity-recognition.pdf ::: Evangelos Milios ::: NA ::: Named Entity Recognition ::: NA
+
+# Surveys
+S1 ::: NER-Literature_Survey-2012-Satpreet.pdf ::: NA ::: NA ::: NA ::: NA
+S2 ::: NEsurvey200402.pdf ::: Satoshi Sekine ::: 2004 ::: Named Entity: History and Future ::: NA
+S3 ::: li07.pdf ::: David Nadeau; Satoshi Sekine ::: 2007 ::: A survey of named entity recognition and classification ::: Linguisticae Investigationes

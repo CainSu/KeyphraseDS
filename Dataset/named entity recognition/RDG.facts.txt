@@ -1,0 +1,162 @@
+* Factoid Sources
+** Tutorials
+     |----+--------------------------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                                               |
+     |----+--------------------------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/Boullosa.pdf                    |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/diana-fb.pdf                    |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/14-named-entity-recognition.pdf |
+     |----+--------------------------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+------------------------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                                         |
+   |----+------------------------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/NER-Literature%20Survey-2012-Satpreet.pdf |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/NEsurvey200402.pdf                        |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/ner/li07.pdf                                  |
+   |----+------------------------------------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+------------------------------------------------------+----+----+----+----+----+----+------------|
+| Factoid # | Factoid                                              | S3 | T1 | T2 | T3 | S1 | S2 | # Factoids |
+|-----------+------------------------------------------------------+----+----+----+----+----+----+------------|
+| V01       | MUC                                                  | X  | X  | X  |    | X  | X  | 5 X        |
+| P04       | Entity type: location                                | X  | X  | X  | X  | X  |    | 5 X        |
+| P03       | Entity type: organization                            | X  | X  | X  | X  | X  |    | 5 X        |
+| P02       | Entity type: Person                                  | X  | X  | X  | X  | X  |    | 5 X        |
+| P01       | information extraction                               | X  | X  | X  | X  |    | X  | 5 X        |
+| M03       | Maximum Entropy Models                               | X  | X  |    | X  | X  | X  | 5 X        |
+| M02       | Hidden Markov Models (HMM)                           | X  | X  |    | X  | X  | X  | 5 X        |
+| M01       | decision trees                                       | X  | X  |    | X  | X  | X  | 5 X        |
+| F01       | List lookup features / gazetteers                    | X  | X  | X  | X  | X  |    | 5 X        |
+| V05       | ACE (Automatic Content Extraction)                   | X  | X  |    |    | X  | X  | 4 X        |
+| V04       | MET (Multilingual Entity Tracking)                   | X  | X  |    |    | X  | X  | 4 X        |
+| V03       | IREX (Information Retrieval and Extraction Exercise) | X  | X  |    |    | X  | X  | 4 X        |
+| V02       | CoNLL                                                | X  | X  |    |    | X  | X  | 4 X        |
+| P12       | Spanish NER                                          | X  | X  |    |    | X  | X  | 4 X        |
+| P11       | Chinese NER                                          | X  | X  |    |    | X  | X  | 4 X        |
+| P10       | NUMEX                                                | X  | X  |    | X  | X  |    | 4 X        |
+| P09       | TIMEX                                                | X  | X  |    | X  | X  |    | 4 X        |
+| P08       | ENAMEX                                               | X  | X  |    | X  | X  |    | 4 X        |
+| P07       | Entity type: drug                                    | X  |    | X  | X  | X  |    | 4 X        |
+| P06       | Entity type: measures (money, weight etc.)           | X  |    | X  | X  | X  |    | 4 X        |
+| P05       | Entity type: date/time expressions                   | X  |    | X  | X  | X  |    | 4 X        |
+| M07       | bootstrapping                                        | X  | X  |    | X  | X  |    | 4 X        |
+| M06       | Conditional Random Fields (CRF)                      | X  |    |    | X  | X  | X  | 4 X        |
+| M05       | Support Vector Machines (SVM)                        | X  |    |    | X  | X  | X  | 4 X        |
+| M04       | handcrafted systems                                  | X  | X  |    |    | X  | X  | 4 X        |
+| V06       | HUB-4                                                | X  | X  |    |    | X  |    | 3 X        |
+| P31       | Turkish NER                                          | X  | X  |    |    | X  |    | 3 X        |
+| P30       | Swedish NER                                          | X  | X  |    |    | X  |    | 3 X        |
+| P29       | Portuguese NER                                       | X  | X  |    |    | X  |    | 3 X        |
+| P28       | Korean NER                                           | X  | X  |    |    | X  |    | 3 X        |
+| P27       | Italian NER                                          | X  | X  |    |    | X  |    | 3 X        |
+| P26       | Greek NER                                            | X  | X  |    |    | X  |    | 3 X        |
+| P25       | German NER                                           | X  | X  |    |    | X  |    | 3 X        |
+| P24       | French NER                                           | X  | X  |    |    | X  |    | 3 X        |
+| P23       | Dutch NER                                            | X  | X  |    |    | X  |    | 3 X        |
+| P22       | Entity type: RNA                                     | X  |    |    | X  | X  |    | 3 X        |
+| P21       | Japanese NER                                         | X  | X  |    |    | X  |    | 3 X        |
+| P20       | Entity type: DNA                                     | X  |    |    | X  | X  |    | 3 X        |
+| P19       | Catalan NER                                          | X  | X  |    |    | X  |    | 3 X        |
+| P18       | Entity type: protein                                 | X  |    |    | X  | X  |    | 3 X        |
+| P17       | Bulgarian NER                                        | X  | X  |    |    | X  |    | 3 X        |
+| P16       | entity classification                                | X  | X  |    |    | X  |    | 3 X        |
+| P15       | unsupervised NER                                     | X  | X  |    |    | X  |    | 3 X        |
+| P14       | entity recognition                                   | X  | X  |    |    | X  |    | 3 X        |
+| P13       | Russian NER                                          | X  | X  |    |    | X  |    | 3 X        |
+| M09       | supervised NER                                       |    |    |    | X  | X  | X  | 3 X        |
+| M08       | semi-supervised NER                                  | X  |    |    | X  | X  |    | 3 X        |
+| F03       | Word level features                                  | X  |    |    | X  | X  |    | 3 X        |
+| F02       | pattern features                                     | X  | X  |    |    | X  |    | 3 X        |
+| D02       | definition of Named Entity                           | X  |    |    |    | X  | X  | 3 X        |
+| D01       | definition of Named Entity Recognition               |    |    | X  | X  | X  |    | 3 X        |
+| A01       | NER applications                                     |    | X  |    | X  | X  |    | 3 X        |
+| V07       | LREC                                                 | X  |    |    |    | X  |    | 2 X        |
+| S01       | LaSIE                                                |    | X  | X  |    |    |    | 2 X        |
+| R01       | GENIA                                                | X  |    |    |    | X  |    | 2 X        |
+| P39       | Basque NER                                           | X  |    |    |    | X  |    | 2 X        |
+| P38       | Hindi NER                                            | X  |    |    |    | X  |    | 2 X        |
+| P37       | Arabic NER                                           |    | X  |    |    | X  |    | 2 X        |
+| P36       | metonymy                                             |    |    | X  | X  |    |    | 2 X        |
+| P35       | entity type factor                                   | X  |    |    |    | X  |    | 2 X        |
+| P34       | genre factor                                         | X  |    |    |    | X  |    | 2 X        |
+| P33       | language factor                                      | X  |    |    |    | X  |    | 2 X        |
+| P32       | Entity type: email                                   |    |    |    | X  | X  |    | 2 X        |
+| M11       | mutual bootstrapping                                 | X  |    |    |    | X  |    | 2 X        |
+| M10       | general dictionary                                   | X  |    |    |    | X  |    | 2 X        |
+| F06       | Document and corpus features                         | X  |    |    | X  |    |    | 2 X        |
+| F05       | capitalization as feature                            | X  | X  |    |    |    |    | 2 X        |
+| F04       | digit pattern as feature                             | X  |    |    |    | X  |    | 2 X        |
+| D03       | information extraction definition                    |    | X  |    | X  |    |    | 2 X        |
+| A02       | Question Ansering                                    |    | X  |    |    |    | X  | 2 X        |
+|           | FRUMP                                                |    | X  |    |    |    |    | X          |
+|           | information extraction applications                  |    | X  |    |    |    |    | X          |
+|           | LSP (Language String Project)                        |    | X  |    |    |    |    | X          |
+|           | Variation of NEs                                     |    |    | X  |    |    |    | X          |
+|           | Ambiguity of NE types                                |    |    | X  |    |    |    | X          |
+|           | information retrieval                                |    | X  |    |    |    |    | X          |
+|           | named entity hierarchies                             |    | X  |    |    |    |    | X          |
+|           | precision/recall as evaluation metrics               |    |    |    |    | X  |    | X          |
+|           | Entity type: medical conditons                       |    |    | X  |    |    |    | X          |
+|           | Entity type: ships                                   |    |    | X  |    |    |    | X          |
+|           | Entity type: bibliographic references                |    |    | X  |    |    |    | X          |
+|           | Entity type: artifact                                |    | X  |    |    |    |    | X          |
+|           | Entity type: facility                                |    | X  |    |    |    |    | X          |
+|           | Entity type: geographical entity                     |    | X  |    |    |    |    | X          |
+|           | Entity type: vehicle                                 |    | X  |    |    |    |    | X          |
+|           | Entity type: weapon                                  |    | X  |    |    |    |    | X          |
+|           | trigger words as feature                             |    | X  |    |    |    |    | X          |
+|           | internal and external features                       |    | X  |    |    |    |    | X          |
+|           | knowledge based systems                              |    | X  |    |    |    |    | X          |
+|           | Shallow parsing approach                             |    |    | X  |    |    |    | X          |
+|           | semantic ambiguity                                   |    |    | X  |    |    |    | X          |
+|           | structural ambiguity                                 |    |    | X  |    |    |    | X          |
+|           | automatic systems for NER                            |    | X  |    |    |    |    | X          |
+|           | statistical NER                                      |    | X  |    |    |    |    | X          |
+|           | machine learning based NER                           |    | X  |    |    |    |    | X          |
+|           | hybrid NER                                           |    | X  |    |    |    |    | X          |
+|           | LTG                                                  |    | X  |    |    |    |    | X          |
+|           | Nominator                                            |    | X  |    |    |    |    | X          |
+|           | tokenizer                                            |    |    | X  |    |    |    | X          |
+|           | named entity grammar                                 |    |    | X  |    |    |    | X          |
+|           | FACILE                                               |    | X  |    |    |    |    | X          |
+|           | NetOwl                                               |    | X  |    |    |    |    | X          |
+|           | BIO tagging (Begin, Inside, Outside)                 |    | X  |    |    |    |    | X          |
+|           | Open Close tagging                                   |    | X  |    |    |    |    | X          |
+|           | Viterbi algorithms                                   |    | X  |    |    |    |    | X          |
+|           | MENE                                                 |    | X  |    |    |    |    | X          |
+|           | ID3                                                  |    | X  |    |    |    |    | X          |
+|           | C4.5                                                 |    | X  |    |    |    |    | X          |
+|           | IBM's intelligent miner                              |    | X  |    |    |    |    | X          |
+|           | wordnet hierarchies                                  |    | X  |    |    |    |    | X          |
+|           | adaboost                                             |    | X  |    |    |    |    | X          |
+|           | clustering                                           |    |    |    | X  |    |    | X          |
+|           | memory based machine learning                        |    | X  |    |    |    |    | X          |
+|           | PASTA                                                |    |    | X  |    |    |    | X          |
+|           | MUMIS                                                |    |    | X  |    |    |    | X          |
+|           | JAPE                                                 |    |    | X  |    |    |    | X          |
+|           | Danish NER                                           | X  |    |    |    |    |    | X          |
+|           | Cebuano NER                                          | X  |    |    |    |    |    | X          |
+|           | Polish NER                                           | X  |    |    |    |    |    | X          |
+|           | Serbo-croatian NER                                   |    | X  |    |    |    |    | X          |
+|           | Romanian NER                                         | X  |    |    |    |    |    | X          |
+|           | Multilingual NER                                     |    | X  |    |    |    |    | X          |
+|           | GALLIPI                                              |    | X  |    |    |    |    | X          |
+|           | ECRAN                                                |    | X  |    |    |    |    | X          |
+|           | REFLEX project                                       |    | X  |    |    |    |    | X          |
+|           | POIBEAU                                              |    | X  |    |    |    |    | X          |
+|           | BOAS II                                              |    | X  |    |    |    |    | X          |
+|           | Character based NER                                  |    | X  |    |    |    |    | X          |
+|           | NER translation                                      |    | X  |    |    |    |    | X          |
+|           | NER in speech                                        |    | X  |    |    |    |    | X          |
+|           | NER in web pages                                     |    | X  |    |    |    |    | X          |
+|           | Boosting and voted perceptron                        |    |    |    |    |    | X  | X          |
+|           | HAREM                                                | X  |    |    |    |    |    | X          |
+|           | Global Autonomous Language Exploitation (GALE)       | X  |    |    |    |    |    | X          |
+|           | micro-averaged F-measure (MAF)                       | X  |    |    |    |    |    | X          |
+|           | entity detection and recognition value (EDR)         | X  |    |    |    |    |    | X          |
+|-----------+------------------------------------------------------+----+----+----+----+----+----+------------|
+  
+  #+TBLFM: $8=vsum($2..$7)

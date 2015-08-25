@@ -1,0 +1,76 @@
+P01	6	subtask: sentiment classification
+P03	5	aspect / attribute / feature level sentiment analysis
+P02	5	components of opinion: opinion orientation / polarity (positive, negative, neutral)
+M02	5	supervised sentiment classification
+M01	5	unsupervised sentiment classification
+F07	5	features: Part Of Speech tags
+D01	5	definition: sentiment analysis / subjectivity analysis / opinion mining
+A01	5	applications: opinion spam detection
+P11	4	polarity words generation / lexicon creation
+P10	4	sentence level sentiment analysis
+P09	4	document level sentiment analysis
+P08	4	subtask: opinion / sentiment identification / extraction
+P07	4	comparative opinion
+P06	4	direct opinion
+P05	4	components of opinion: opinion holder
+P04	4	components of opinion: object / entity
+M06	4	supervised learning: Support Vector Machines (SVM)
+M05	4	supervised learning: Naive Bayes
+F08	4	features: negation
+A04	4	applications: opinion search and retrieval
+A03	4	applications: opinion summarization
+A02	4	applications: advertising
+P35	3	domain adaptation
+P18	3	preferred object identification
+P17	3	comparative sentiment analysis
+P15	3	sentence subjectivity
+P14	3	explicit vs implicit features/ attributes / aspects
+P13	3	components of opinion: attribute / feature / aspect / facet
+P12	3	opinion as a quintuple (target, aspect, sentiment, opinion holder, time)
+M12	3	bootstrapping
+M11	3	corpus based polarity words / lexicon generation
+M10	3	dictionary based polarity words / lexicon generation
+M09	3	Pointwise Mutual Information (PMI)
+M08	3	Label Sequential Pattern (LSP) matching / label sequential rules (LSR)
+M07	3	rule based systems for sentiment classification
+F04	3	features: syntactic dependency
+F03	3	features: TF*IDF weighting
+F02	3	features: term frequency
+F01	3	features: n-grams
+D02	3	definition: facts vs opinions
+A05	3	applications: marketing
+V01	2	TREC blog track
+P34	2	subproblem: coreference resolution
+P33	2	topic identification
+P32	2	cross lingual sentiment classification
+P31	2	comparative type opinion words (eg. better, worse)
+P30	2	base type opinion words (eg. wonderful, horrible)
+P29	2	aspect / atttibute / feature extraction
+P28	2	opinion integration / aggregation
+P27	2	implicit opinion
+P26	2	explicit opinion
+P25	2	comparative relations: gradable comparisons: superlative comparisons
+P24	2	comparative relations: gradable comparisons: equative comparisons
+P23	2	comparative relations: gradable comparisons: non-equal gradable comparisons
+P22	2	comparative relations: gradable comparisons
+P21	2	comparative mining
+P20	2	components of opinion: opeinion strength / level / scale / intensity
+P19	2	targets of opinions
+P16	2	user generated content
+M20	2	LDA
+M19	2	topic model basd methods
+M18	2	supervised learning: Maximum Entropy
+M17	2	corpus based polarity words generation / lexicon creation: syntactic or co-occurence patterns
+M16	2	semi supervised sentiment classification
+M15	2	double propagation for polarity words / lexicon generation
+M14	2	opinion lexicon / opinion words / polarity words / opinion bearing words
+M13	2	double propagation (DP) for aspect / atttibute / feature extraction
+F06	2	features: word position information
+F05	2	syntactic features
+D05	2	definition: opinion
+D04	2	definition: subjectivity
+D03	2	definition: opinions
+A09	2	applications: opinion quality assesment
+A08	2	applications: business intelligence
+A07	2	applications: question answering
+A06	2	applications: product reviews

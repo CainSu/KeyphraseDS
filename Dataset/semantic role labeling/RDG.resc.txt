@@ -1,0 +1,12 @@
+# ID ::: Filename ::: Authors ::: Year ::: Title ::: Venue
+
+# Tutorials
+T1 ::: SRL-tutorial-ACL-IJCNLP-2009.pdf ::: Lluis Marquez ::: 2009 ::: Semantic Role Labeling: Past, Present and Future ::: ACL-IJCNLP
+T2 ::: SRL-Tutorial-post-HLT-NAACL-06.pdf ::: Scott Wen-tau Yih; Kristina Toutanova ::: 2006 ::: Automatic Semantic Role Labeling ::: HLT-NAACL
+T3 ::: srl.pdf ::: Raymond J. Mooney ::: NA ::: Semantic Role Labeling ::: Class lecture
+T4 ::: semantic-role-labeling.pdf ::: Rohit Kate ::: NA ::: Semantic Role Labeling ::: Class lecture
+
+# Surveys
+S1 ::: SRL_DEP-Literature_Survey-2012-Janardhan.pdf ::: Janardhan Singh ::: 2012 ::: Survey: Semantic Role Labeling and Dependency Parsing ::: NA
+S2 ::: coli.2008.34.2.145.pdf ::: Lluis Marquez; Xavier Carreras; Kenneth C. Litkowsk; Suzanne Stevenson ::: 2008 ::: Semantic Role Labeling: An Introduction to the Special Issue ::: Computational Linguistics
+S3 ::: morgan_clay_srl.pdf ::: Martha Palmer; Daniel Gildea; Nianwen Xue ::: 2010 ::: Semantic Role Labeling ::: Morgan & Claypool Publishers

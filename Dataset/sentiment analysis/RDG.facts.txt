@@ -1,0 +1,176 @@
+* Factoid Sources
+** Tutorials
+     |----+-------------------------------------------------------------------------------------------------------------------------------------------|
+     | ID | Link                                                                                                                                      |
+     |----+-------------------------------------------------------------------------------------------------------------------------------------------|
+     | T1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/ICDM2011_SentimentAnalysisInPracticeTutorial.pdf |
+     | T2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/OpinionMining_Kavita_HyunDuk_0_0.pdf             |
+     | T3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/Sentiment-Analysis-tutorial-AAAI-2011.pdf        |
+     | T4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/opinion-mining.pdf                               |
+     |----+-------------------------------------------------------------------------------------------------------------------------------------------|
+** Surveys
+   |----+--------------------------------------------------------------------------------------------------------------------------------------|
+   | ID | Link                                                                                                                                 |
+   |----+--------------------------------------------------------------------------------------------------------------------------------------|
+   | S1 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/omsa.pdf                                    |
+   | S2 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/NLP-handbook-sentiment-analysis.pdf         |
+   | S3 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/V2I600263.pdf                               |
+   | S4 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/SA-Literature%20Survey-2012-Subhabratam.pdf |
+   | S5 | http://clair.si.umich.edu/fuse/rdg_summarization/tacl_feb_experiments/factoids/sentiment/morgan_clay_sentiment.pdf                   |
+   |----+--------------------------------------------------------------------------------------------------------------------------------------|
+
+* Factoids
+
+|-----------+-----------------------------------------------------------------------------------------------+----+----+----+----+----+----+----+------------|
+| Factoid # | Factoid                                                                                       | T1 | T2 | T3 | T4 | S1 | S2 | S3 | # factoids |
+|-----------+-----------------------------------------------------------------------------------------------+----+----+----+----+----+----+----+------------|
+| P01       | subtask: sentiment classification                                                             | X  | X  | X  | X  | X  |    | X  | 6 X        |
+| P03       | aspect / attribute / feature level sentiment analysis                                         | X  | X  | X  |    |    | X  | X  | 5 X        |
+| P02       | components of opinion: opinion orientation / polarity (positive, negative, neutral)           | X  | X  | X  |    | X  | X  |    | 5 X        |
+| M02       | supervised sentiment classification                                                           | X  | X  | X  | X  |    | X  |    | 5 X        |
+| M01       | unsupervised sentiment classification                                                         |    | X  | X  |    | X  | X  | X  | 5 X        |
+| F07       | features: Part Of Speech tags                                                                 | X  | X  | X  |    | X  | X  |    | 5 X        |
+| D01       | definition: sentiment analysis / subjectivity analysis / opinion mining                       |    | X  | X  | X  | X  | X  |    | 5 X        |
+| A01       | applications: opinion spam detection                                                          | X  | X  | X  | X  |    | X  |    | 5 X        |
+| P11       | polarity words generation / lexicon creation                                                  | X  |    | X  |    | X  | X  |    | 4 X        |
+| P10       | sentence level sentiment analysis                                                             | X  | X  | X  |    |    | X  |    | 4 X        |
+| P09       | document level sentiment analysis                                                             | X  | X  | X  |    |    | X  |    | 4 X        |
+| P08       | subtask: opinion / sentiment identification / extraction                                      | X  |    | X  | X  | X  |    |    | 4 X        |
+| P07       | comparative opinion                                                                           | X  | X  | X  |    |    | X  |    | 4 X        |
+| P06       | direct opinion                                                                                | X  | X  | X  |    |    | X  |    | 4 X        |
+| P05       | components of opinion: opinion holder                                                         | X  | X  | X  |    |    | X  |    | 4 X        |
+| P04       | components of opinion: object / entity                                                        | X  | X  | X  |    |    | X  |    | 4 X        |
+| M06       | supervised learning: Support Vector Machines (SVM)                                            | X  |    | X  |    |    | X  | X  | 4 X        |
+| M05       | supervised learning: Naive Bayes                                                              | X  |    | X  |    |    | X  | X  | 4 X        |
+| F08       | features: negation                                                                            |    |    | X  |    | X  | X  | X  | 4 X        |
+| A04       | applications: opinion search and retrieval                                                    | X  | X  | X  |    |    | X  |    | 4 X        |
+| A03       | applications: opinion summarization                                                           | X  |    |    | X  | X  |    | X  | 4 X        |
+| A02       | applications: advertising                                                                     | X  | X  | X  |    |    |    | X  | 4 X        |
+| P35       | domain adaptation                                                                             | X  |    | X  |    | X  |    |    | 3 X        |
+| P18       | preferred object identification                                                               | X  |    | X  |    |    | X  |    | 3 X        |
+| P17       | comparative sentiment analysis                                                                | X  |    | X  |    |    | X  |    | 3 X        |
+| P15       | sentence subjectivity                                                                         | X  |    | X  |    |    | X  |    | 3 X        |
+| P14       | explicit vs implicit features/ attributes / aspects                                           | X  |    | X  |    |    | X  |    | 3 X        |
+| P13       | components of opinion: attribute / feature / aspect / facet                                   | X  |    | X  |    |    | X  |    | 3 X        |
+| P12       | opinion as a quintuple (target, aspect, sentiment, opinion holder, time)                      | X  |    | X  |    |    | X  |    | 3 X        |
+| M12       | bootstrapping                                                                                 | X  |    | X  |    | X  |    |    | 3 X        |
+| M11       | corpus based polarity words / lexicon generation                                              | X  |    | X  |    |    | X  |    | 3 X        |
+| M10       | dictionary based polarity words / lexicon generation                                          | X  |    | X  |    |    | X  |    | 3 X        |
+| M09       | Pointwise Mutual Information (PMI)                                                            | X  | X  | X  |    |    |    |    | 3 X        |
+| M08       | Label Sequential Pattern (LSP) matching / label sequential rules (LSR)                        | X  | X  |    |    |    | X  |    | 3 X        |
+| M07       | rule based systems for sentiment classification                                               | X  |    |    | X  |    |    | X  | 3 X        |
+| F04       | features: syntactic dependency                                                                | X  |    | X  |    |    | X  |    | 3 X        |
+| F03       | features: TF*IDF weighting                                                                    | X  |    |    |    |    | X  | X  | 3 X        |
+| F02       | features: term frequency                                                                      | X  |    |    |    | X  | X  |    | 3 X        |
+| F01       | features: n-grams                                                                             | X  |    | X  |    | X  |    |    | 3 X        |
+| D02       | definition: facts vs opinions                                                                 | X  |    |    |    |    | X  | X  | 3 X        |
+| A05       | applications: marketing                                                                       | X  | X  | X  |    |    |    |    | 3 X        |
+| V01       | TREC blog track                                                                               |    | X  |    |    | X  |    |    | 2 X        |
+| P34       | subproblem: coreference resolution                                                            |    |    | X  |    |    | X  |    | 2 X        |
+| P33       | topic identification                                                                          | X  |    |    |    | X  |    |    | 2 X        |
+| P32       | cross lingual sentiment classification                                                        |    |    | X  |    | X  |    |    | 2 X        |
+| P31       | comparative type opinion words (eg. better, worse)                                            | X  |    |    |    |    | X  |    | 2 X        |
+| P30       | base type opinion words (eg. wonderful, horrible)                                             | X  |    |    |    |    | X  |    | 2 X        |
+| P29       | aspect / atttibute / feature extraction                                                       |    |    | X  |    |    | X  |    | 2 X        |
+| P28       | opinion integration / aggregation                                                             |    | X  |    |    |    | X  |    | 2 X        |
+| P27       | implicit opinion                                                                              | X  |    |    |    |    | X  |    | 2 X        |
+| P26       | explicit opinion                                                                              | X  |    |    |    |    | X  |    | 2 X        |
+| P25       | comparative relations: gradable comparisons: superlative comparisons                          |    |    | X  |    |    | X  |    | 2 X        |
+| P24       | comparative relations: gradable comparisons: equative comparisons                             |    |    | X  |    |    | X  |    | 2 X        |
+| P23       | comparative relations: gradable comparisons: non-equal gradable comparisons                   |    |    | X  |    |    | X  |    | 2 X        |
+| P22       | comparative relations: gradable comparisons                                                   |    |    | X  |    |    | X  |    | 2 X        |
+| P21       | comparative mining                                                                            |    | X  |    |    |    | X  |    | 2 X        |
+| P20       | components of opinion: opeinion strength / level / scale / intensity                          | X  |    |    |    | X  |    |    | 2 X        |
+| P19       | targets of opinions                                                                           | X  |    | X  |    |    |    |    | 2 X        |
+| P16       | user generated content                                                                        | X  |    |    |    |    | X  |    | 2 X        |
+| M20       | LDA                                                                                           | X  |    | X  |    |    |    |    | 2 X        |
+| M19       | topic model basd methods                                                                      | X  |    | X  |    |    |    |    | 2 X        |
+| M18       | supervised learning: Maximum Entropy                                                          | X  |    | X  |    |    |    |    | 2 X        |
+| M17       | corpus based polarity words generation / lexicon creation: syntactic or co-occurence patterns | X  |    | X  |    |    |    |    | 2 X        |
+| M16       | semi supervised sentiment classification                                                      |    | X  |    |    |    |    | X  | 2 X        |
+| M15       | double propagation for polarity words / lexicon generation                                    |    |    | X  |    | X  |    |    | 2 X        |
+| M14       | opinion lexicon / opinion words / polarity words / opinion bearing words                      | X  |    | X  |    |    |    |    | 2 X        |
+| M13       | double propagation (DP) for aspect / atttibute / feature extraction                           |    |    | X  |    |    | X  |    | 2 X        |
+| F06       | features: word position information                                                           | X  |    | X  |    |    |    |    | 2 X        |
+| F05       | syntactic features                                                                            |    | X  |    |    | X  |    |    | 2 X        |
+| D05       | definition: opinion                                                                           |    |    | X  |    |    | X  |    | 2 X        |
+| D04       | definition: subjectivity                                                                      |    | X  |    |    | X  |    |    | 2 X        |
+| D03       | definition: opinions                                                                          | X  |    | X  |    |    |    |    | 2 X        |
+| A09       | applications: opinion quality assesment                                                       | X  | X  |    |    |    |    |    | 2 X        |
+| A08       | applications: business intelligence                                                           |    |    |    |    | X  |    | X  | 2 X        |
+| A07       | applications: question answering                                                              |    | X  |    |    | X  |    |    | 2 X        |
+| A06       | applications: product reviews                                                                 | X  | X  |    |    |    |    |    | 2 X        |
+|           | applications: brand analysis                                                                  | X  |    |    |    |    |    |    | X          |
+|           | applications: customer voice                                                                  | X  |    |    |    |    |    |    | X          |
+|           | applications: stock market prediction                                                         |    |    |    | X  |    |    |    | X          |
+|           | applications: event monitoring                                                                | X  |    |    |    |    |    |    | X          |
+|           | systems: Radian6                                                                              | X  |    |    |    |    |    |    | X          |
+|           | systems: Lexalytics                                                                           | X  |    |    |    |    |    |    | X          |
+|           | definition: emotion                                                                           |    |    |    |    |    | X  |    | X          |
+|           | opinion holder, object and time extraction                                                    |    |    |    |    |    | X  |    | X          |
+|           | reader's standing point                                                                       |    |    | X  |    |    |    |    | X          |
+|           | general opinion                                                                               |    |    |    |    |    | X  |    | X          |
+|           | specific opinion                                                                              |    |    |    |    |    | X  |    | X          |
+|           | non gradable comparisons                                                                      |    |    |    |    |    | X  |    | X          |
+|           | aspect based opinion summary                                                                  |    |    | X  |    |    |    |    | X          |
+|           | feature opinion association                                                                   |    |    |    | X  |    |    |    | X          |
+|           | but clauses                                                                                   |    |    |    |    |    | X  |    | X          |
+|           | sentiment shifters                                                                            |    |    | X  |    |    |    |    | X          |
+|           | sentiment ontology tree                                                                       |    |    | X  |    |    |    |    | X          |
+|           | aspect sentiment statistical models                                                           |    |    | X  |    |    |    |    | X          |
+|           | aspect sentiment model                                                                        |    |    | X  |    |    |    |    | X          |
+|           | mutli grain LDA to extract aspects                                                            |    |    | X  |    |    |    |    | X          |
+|           | aspect rating of short text                                                                   |    |    | X  |    |    |    |    | X          |
+|           | aspect rating regression                                                                      |    |    | X  |    |    |    |    | X          |
+|           | identify aspect synonyms                                                                      |    |    | X  |    |    |    |    | X          |
+|           | multilevel latent categorization for identifying aspect synonyms                              |    |    | X  |    |    |    |    | X          |
+|           | distributional similarity for aspect / attribute /feature level sentiment analysis            |    |    | X  |    |    |    |    | X          |
+|           | PU learning for aspect / attribute / feature feature level sentiment analysis                 |    |    | X  |    |    |    |    | X          |
+|           | Bayesian sets for aspect / attribute / feature level sentiment analysis                       |    |    | X  |    |    |    |    | X          |
+|           | aspect extraction using mutual reinforcement                                                  |    |    | X  |    |    |    |    | X          |
+|           | frequency based approach for aspect / atttibute / feature extraction                          |    |    | X  |    |    |    |    | X          |
+|           | infrequent aspect / atttibute / feature extraction                                            |    |    | X  |    |    |    |    | X          |
+|           | implicit aspect mapping                                                                       |    |    | X  |    |    |    |    | X          |
+|           | method: couting opinion words                                                                 | X  |    |    |    |    |    |    | X          |
+|           | automatically finding opinion words                                                           | X  |    |    |    |    |    |    | X          |
+|           | patterns of POS tags                                                                          |    |    | X  |    |    |    |    | X          |
+|           | resource: ANEW (Affective Norms for English Words)                                            | X  |    |    |    |    |    |    | X          |
+|           | sentence segmentation and classification                                                      |    |    | X  |    |    |    |    | X          |
+|           | classification based on relationship information                                              |    |    |    |    | X  |    |    | X          |
+|           | predicting the semantic orientation of adjectives                                             | X  |    |    |    |    |    |    | X          |
+|           | semantic features                                                                             |    | X  |    |    |    |    |    | X          |
+|           | link based features                                                                           |    | X  |    |    |    |    |    | X          |
+|           | stylistic features                                                                            |    | X  |    |    |    |    |    | X          |
+|           | features: term presence                                                                       |    |    |    |    | X  |    |    | X          |
+|           | features: topic oriented features                                                             |    |    |    |    | X  |    |    | X          |
+|           | features: opinion words / phrases                                                             |    |    |    |    |    | X  |    | X          |
+|           | supervised learning: Logistic Regression                                                      | X  |    |    |    |    |    |    | X          |
+|           | supervised learning: K-nearest neighbors (KNN)                                                |    |    |    |    |    |    | X  | X          |
+|           | supervised learning: Winnow                                                                   |    |    |    |    |    |    | X  | X          |
+|           | language models                                                                               |    |    |    |    | X  |    |    | X          |
+|           | discourse structure                                                                           |    |    |    |    | X  |    |    | X          |
+|           | learning syntactic patterns                                                                   | X  |    |    |    |    |    |    | X          |
+|           | automatic topic extraction                                                                    | X  |    |    |    |    |    |    | X          |
+|           | joint topic-sentiment analysis                                                                |    |    |    |    | X  |    |    | X          |
+|           | orientation classification for topics                                                         | X  |    |    |    |    |    |    | X          |
+|           | applications: recommendation systems                                                          |    |    |    |    | X  |    |    | X          |
+|           | corpus: Blog06                                                                                |    |    |    |    | X  |    |    | X          |
+|           | corpus: Congressional floor-debate transcripts                                                |    |    |    |    | X  |    |    | X          |
+|           | corpus: Cornell movie-review datasets                                                         |    |    |    |    | X  |    |    | X          |
+|           | corpus: Customer review datasets                                                              |    |    |    |    | X  |    |    | X          |
+|           | corpus: Economining                                                                           |    |    |    |    | X  |    |    | X          |
+|           | corpus: French sentences                                                                      |    |    |    |    | X  |    |    | X          |
+|           | corpus: MPQA corpus                                                                           |    |    |    |    | X  |    |    | X          |
+|           | corpus: mutliple aspect restaurant reviews                                                    |    |    |    |    | X  |    |    | X          |
+|           | corpus: multi-domain sentiment dataset                                                        |    |    |    |    | X  |    |    | X          |
+|           | corpus: NTCIR mutlilingual corpus                                                             |    |    |    |    | X  |    |    | X          |
+|           | corpus: Review search results set                                                             |    |    |    |    | X  |    |    | X          |
+|           | NTCIR opinion analysis pilot task                                                             |    |    |    |    | X  |    |    | X          |
+|           | NTCIR multilingual opinion analysis task (MOAT)                                               |    |    |    |    | X  |    |    | X          |
+|           | OpQA corpus                                                                                   |    |    |    |    | X  |    |    | X          |
+|           | Systems: OPINE                                                                                |    |    |    |    |    |    | X  | X          |
+|-----------+-----------------------------------------------------------------------------------------------+----+----+----+----+----+----+----+------------|
+  #+TBLFM: $10=vsum($3..$9)
+
+
+
